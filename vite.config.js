@@ -63,10 +63,9 @@ export default defineConfig({
         const standardsData = JSON.parse(readFileSync(standardsIndexPath, 'utf-8'))
 
         for (const standard of standardsData) {
-          const category = standard.category || 'standards'
           const id = standard.id || standard.number
           if (id) {
-            allRoutes.push(`/standards/${category}/${id}`)
+            allRoutes.push(`/standards/${id}`)
           }
         }
       } catch (err) {

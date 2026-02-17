@@ -115,7 +115,9 @@ const statusText = computed(() => {
 })
 
 const breadcrumbs = computed(() => {
-  const category = route.params.category || 'standards'
+  // Get category from standard data since route is now /standards/:id
+  const standardData = standard.value
+  const category = standardData?.category || 'standards'
   const categoryNames = {
     foundation: 'Foundation',
     quality: 'Quality',
@@ -126,7 +128,7 @@ const breadcrumbs = computed(() => {
   return [
     { label: 'Standards', path: '/standards' },
     { label: categoryNames[category] || 'Standards', path: `/standards/${category}` },
-    { label: standard.value?.id || standardId.value, path: route.path }
+    { label: standardData?.id || standardId.value, path: route.path }
   ]
 })
 

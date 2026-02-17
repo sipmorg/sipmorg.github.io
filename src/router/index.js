@@ -82,7 +82,7 @@ export const routes = [
 
   // Individual standard pages (AsciiDoc rendering)
   {
-    path: '/standards/:category/:id',
+    path: '/standards/:id',
     name: 'standard-view',
     component: () => import('@/views/standards/StandardView.vue')
   },

@@ -77,7 +77,10 @@ function parseAdocFile(content, filePath) {
     attributes,
     html,
     toc,
-    raw: content
+    raw: content,
+    category: getCategory(basename(dirname(filePath))),
+    status: attributes.docstage === '60' ? 'published' : 'draft',
+    date: attributes.revdate || new Date().toISOString().split('T')[0]
   }
 }
 

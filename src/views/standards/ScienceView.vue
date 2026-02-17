@@ -8,11 +8,30 @@
         and clinical applications.
       </p>
 
+      <h2>Published Standards</h2>
+      <div v-if="standards.length > 0" class="standards-list">
+        <router-link
+          v-for="standard in standards"
+          :key="standard.id"
+          :to="`/standards/${standard.id}`"
+          class="standard-card glass"
+        >
+          <div class="standard-header">
+            <span class="standard-number">{{ standard.id }}</span>
+            <Badge variant="success">{{ standard.status }}</Badge>
+          </div>
+          <h3 class="standard-title">{{ standard.title }}</h3>
+          <p class="standard-date">Published {{ formatDate(standard.date) }}</p>
+        </router-link>
+      </div>
+      <div v-else class="no-standards">
+        <p>No standards have been published in this category yet.</p>
+      </div>
+
       <h2>Working Groups</h2>
       <p>
         Science standards are developed by specialized working groups that focus
-        on specific areas of phytomedicine research and evaluation. Each working group is
-        responsible for developing and maintaining standards within their area of expertise.
+        on specific areas of phytomedicine research and evaluation.
       </p>
 
       <div class="working-groups-list">
@@ -26,12 +45,6 @@
             therapeutic indications, safety profiles, and traditional use documentation
             of medicinal plants and their preparations.
           </p>
-          <div class="group-meta">
-            <span>Systematic evaluation of medicinal properties provides the scientific foundation for therapeutic applications of phytomedicines.</span>
-          </div>
-          <p class="standards-note">
-            <em>Standards from this working group will be published here as they are developed.</em>
-          </p>
         </div>
 
         <div class="working-group-card glass">
@@ -43,12 +56,6 @@
             Establishing standardized methodologies for authentication, purity testing,
             potency assurance, contaminant screening, and stability testing of
             phytomedicine products.
-          </p>
-          <div class="group-meta">
-            <span>Reliable and reproducible test methods are essential for quality control and regulatory compliance in phytomedicine.</span>
-          </div>
-          <p class="standards-note">
-            <em>Standards from this working group will be published here as they are developed.</em>
           </p>
         </div>
 
@@ -62,12 +69,6 @@
             treatment duration, contraindications, and drug-herb interactions to guide
             safe and effective clinical use.
           </p>
-          <div class="group-meta">
-            <span>Clinical standards ensure that phytomedicines are used safely and effectively in healthcare practice.</span>
-          </div>
-          <p class="standards-note">
-            <em>Standards from this working group will be published here as they are developed.</em>
-          </p>
         </div>
 
         <div class="working-group-card glass">
@@ -79,12 +80,6 @@
             Creating standards for multi-herb combinations, excipient compatibility,
             bioavailability enhancement, and synergistic interactions to optimize
             phytomedicine formulations.
-          </p>
-          <div class="group-meta">
-            <span>Proper formulation ensures that phytomedicines deliver their therapeutic benefits effectively and consistently.</span>
-          </div>
-          <p class="standards-note">
-            <em>Standards from this working group will be published here as they are developed.</em>
           </p>
         </div>
       </div>
@@ -100,12 +95,26 @@
 </template>
 
 <script setup>
+import { computed } from 'vue'
 import Badge from '@/components/ui/Badge.vue'
 import { useSeo } from '@/composables/useSeo.js'
+import { getAllStandards } from '@/composables/useStandard.js'
+
+const allStandards = getAllStandards()
+
+const standards = computed(() => {
+  return allStandards.filter(s => s.category === 'science')
+})
+
+function formatDate(dateStr) {
+  if (!dateStr) return 'TBD'
+  const date = new Date(dateStr)
+  return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
+}
 
 useSeo({
   title: 'Science Standards',
-  description: 'SIPM Science Standards - Working groups for properties, testing, clinical application, and formulation in phytomedicine.',
+  description: 'SIPM Science Standards - Properties, testing, clinical application, and formulation in phytomedicine.',
   url: '/standards/science'
 })
 </script>
@@ -143,6 +152,60 @@ useSeo({
   margin-bottom: var(--spacing-xl);
 }
 
+.standards-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  margin: var(--spacing-lg) 0;
+}
+
+.standard-card {
+  display: block;
+  padding: var(--spacing-lg);
+  text-decoration: none;
+  color: inherit;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.standard-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.standard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-sm);
+}
+
+.standard-number {
+  font-family: var(--font-mono);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-primary);
+}
+
+.standard-title {
+  font-family: var(--font-serif);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text);
+  margin: 0 0 var(--spacing-xs);
+}
+
+.standard-date {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+  margin: 0;
+}
+
+.no-standards {
+  padding: var(--spacing-xl);
+  text-align: center;
+  color: var(--color-text-light);
+}
+
 .working-groups-list {
   display: flex;
   flex-direction: column;
@@ -172,22 +235,7 @@ useSeo({
 .group-description {
   font-size: var(--font-size-base);
   color: var(--color-text);
-  margin-bottom: var(--spacing-md);
-}
-
-.group-meta {
-  font-size: var(--font-size-sm);
-  color: var(--color-text-light);
-  margin-bottom: var(--spacing-md);
-}
-
-.standards-note {
-  font-size: var(--font-size-sm);
-  color: var(--color-text-light);
-  font-style: italic;
   margin: 0;
-  padding-top: var(--spacing-md);
-  border-top: 1px solid var(--color-border);
 }
 
 .content-body a {

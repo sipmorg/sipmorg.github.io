@@ -8,11 +8,30 @@
         through pharmacovigilance.
       </p>
 
+      <h2>Published Standards</h2>
+      <div v-if="standards.length > 0" class="standards-list">
+        <router-link
+          v-for="standard in standards"
+          :key="standard.id"
+          :to="`/standards/${standard.id}`"
+          class="standard-card glass"
+        >
+          <div class="standard-header">
+            <span class="standard-number">{{ standard.id }}</span>
+            <Badge variant="success">{{ standard.status }}</Badge>
+          </div>
+          <h3 class="standard-title">{{ standard.title }}</h3>
+          <p class="standard-date">Published {{ formatDate(standard.date) }}</p>
+        </router-link>
+      </div>
+      <div v-else class="no-standards">
+        <p>No standards have been published in this category yet.</p>
+      </div>
+
       <h2>Working Groups</h2>
       <p>
         Governance standards are developed by specialized working groups that focus
-        on regulatory, educational, and safety aspects of phytomedicine. Each working group is
-        responsible for developing and maintaining standards within their area of expertise.
+        on regulatory, educational, and safety aspects of phytomedicine.
       </p>
 
       <div class="working-groups-list">
@@ -26,12 +45,6 @@
             facilitating market access while maintaining safety and quality standards
             across different regulatory jurisdictions.
           </p>
-          <div class="group-meta">
-            <span>Regulatory harmonization reduces barriers to trade and improves access to quality phytomedicines globally.</span>
-          </div>
-          <p class="standards-note">
-            <em>Standards from this working group will be published here as they are developed.</em>
-          </p>
         </div>
 
         <div class="working-group-card glass">
@@ -44,12 +57,6 @@
             certification programs, and continuing education requirements for
             healthcare practitioners and researchers.
           </p>
-          <div class="group-meta">
-            <span>Standardized education ensures that practitioners have the knowledge and skills necessary for safe and effective phytomedicine practice.</span>
-          </div>
-          <p class="standards-note">
-            <em>Standards from this working group will be published here as they are developed.</em>
-          </p>
         </div>
 
         <div class="working-group-card glass">
@@ -61,12 +68,6 @@
             Creating systems for monitoring safety, reporting adverse reactions,
             identifying herb-drug interactions, and implementing risk management
             strategies for phytomedicine products.
-          </p>
-          <div class="group-meta">
-            <span>Effective pharmacovigilance is essential for protecting public health and maintaining confidence in phytomedicines.</span>
-          </div>
-          <p class="standards-note">
-            <em>Standards from this working group will be published here as they are developed.</em>
           </p>
         </div>
       </div>
@@ -82,12 +83,26 @@
 </template>
 
 <script setup>
+import { computed } from 'vue'
 import Badge from '@/components/ui/Badge.vue'
 import { useSeo } from '@/composables/useSeo.js'
+import { getAllStandards } from '@/composables/useStandard.js'
+
+const allStandards = getAllStandards()
+
+const standards = computed(() => {
+  return allStandards.filter(s => s.category === 'governance')
+})
+
+function formatDate(dateStr) {
+  if (!dateStr) return 'TBD'
+  const date = new Date(dateStr)
+  return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
+}
 
 useSeo({
   title: 'Governance Standards',
-  description: 'SIPM Governance Standards - Working groups for regulatory harmonization, education, and pharmacovigilance in phytomedicine.',
+  description: 'SIPM Governance Standards - Regulatory harmonization, education, and pharmacovigilance in phytomedicine.',
   url: '/standards/governance'
 })
 </script>
@@ -125,6 +140,60 @@ useSeo({
   margin-bottom: var(--spacing-xl);
 }
 
+.standards-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  margin: var(--spacing-lg) 0;
+}
+
+.standard-card {
+  display: block;
+  padding: var(--spacing-lg);
+  text-decoration: none;
+  color: inherit;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.standard-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.standard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-sm);
+}
+
+.standard-number {
+  font-family: var(--font-mono);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-primary);
+}
+
+.standard-title {
+  font-family: var(--font-serif);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text);
+  margin: 0 0 var(--spacing-xs);
+}
+
+.standard-date {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+  margin: 0;
+}
+
+.no-standards {
+  padding: var(--spacing-xl);
+  text-align: center;
+  color: var(--color-text-light);
+}
+
 .working-groups-list {
   display: flex;
   flex-direction: column;
@@ -154,22 +223,7 @@ useSeo({
 .group-description {
   font-size: var(--font-size-base);
   color: var(--color-text);
-  margin-bottom: var(--spacing-md);
-}
-
-.group-meta {
-  font-size: var(--font-size-sm);
-  color: var(--color-text-light);
-  margin-bottom: var(--spacing-md);
-}
-
-.standards-note {
-  font-size: var(--font-size-sm);
-  color: var(--color-text-light);
-  font-style: italic;
   margin: 0;
-  padding-top: var(--spacing-md);
-  border-top: 1px solid var(--color-border);
 }
 
 .content-body a {

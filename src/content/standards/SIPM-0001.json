@@ -471,5 +471,8 @@
       "children": []
     }
   ],
-  "raw": "= Terminology for Phytomedicine\n:docnumber: 0001\n:partnumber: 1\n:edition: 1\n:revdate: 2026-02-17\n:copyright-year: 2026\n:language: en\n:title-intro-en: SIPM Standards\n:title-main-en: Terminology for Phytomedicine\n:title-part-en: General vocabulary\n:doctype: international-standard\n:docstage: 60\n:docsubstage: 60\n:technical-committee-number: 1\n:technical-committee: Terminology and Nomenclature\n:library-ics: 01.040.11;11.120\n:mn-document-class: iso\n:mn-output-extensions: xml,html,doc,pdf\n\ninclude::sections/00-foreword.adoc[]\n\ninclude::sections/00-introduction.adoc[]\n\ninclude::sections/01-scope.adoc[]\n\ninclude::sections/02-normref.adoc[]\n\ninclude::sections/03-terms.adoc[]\n\ninclude::sections/04-vocabulary.adoc[]\n\ninclude::sections/b0-bibliography.adoc[]\n"
+  "raw": "= Terminology for Phytomedicine\n:docnumber: 0001\n:partnumber: 1\n:edition: 1\n:revdate: 2026-02-17\n:copyright-year: 2026\n:language: en\n:title-intro-en: SIPM Standards\n:title-main-en: Terminology for Phytomedicine\n:title-part-en: General vocabulary\n:doctype: international-standard\n:docstage: 60\n:docsubstage: 60\n:technical-committee-number: 1\n:technical-committee: Terminology and Nomenclature\n:library-ics: 01.040.11;11.120\n:mn-document-class: iso\n:mn-output-extensions: xml,html,doc,pdf\n\ninclude::sections/00-foreword.adoc[]\n\ninclude::sections/00-introduction.adoc[]\n\ninclude::sections/01-scope.adoc[]\n\ninclude::sections/02-normref.adoc[]\n\ninclude::sections/03-terms.adoc[]\n\ninclude::sections/04-vocabulary.adoc[]\n\ninclude::sections/b0-bibliography.adoc[]\n",
+  "category": "foundation",
+  "status": "published",
+  "date": "2026-02-17"
 }

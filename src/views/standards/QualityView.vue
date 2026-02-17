@@ -8,11 +8,30 @@
         processing methods, and logistics.
       </p>
 
+      <h2>Published Standards</h2>
+      <div v-if="standards.length > 0" class="standards-list">
+        <router-link
+          v-for="standard in standards"
+          :key="standard.id"
+          :to="`/standards/${standard.id}`"
+          class="standard-card glass"
+        >
+          <div class="standard-header">
+            <span class="standard-number">{{ standard.id }}</span>
+            <Badge variant="success">{{ standard.status }}</Badge>
+          </div>
+          <h3 class="standard-title">{{ standard.title }}</h3>
+          <p class="standard-date">Published {{ formatDate(standard.date) }}</p>
+        </router-link>
+      </div>
+      <div v-else class="no-standards">
+        <p>No standards have been published in this category yet.</p>
+      </div>
+
       <h2>Working Groups</h2>
       <p>
         Quality standards are developed by specialized working groups that focus
-        on specific areas of phytomedicine quality assurance. Each working group is
-        responsible for developing and maintaining standards within their area of expertise.
+        on specific areas of phytomedicine quality assurance.
       </p>
 
       <div class="working-groups-list">
@@ -25,12 +44,6 @@
             Developing guidelines for growing, harvesting, and collecting medicinal plants
             to ensure quality, efficacy, and sustainability of the phytomedicine supply chain.
           </p>
-          <div class="group-meta">
-            <span>Standardized agricultural practices are essential for ensuring consistent quality of medicinal plant materials from cultivation to harvest.</span>
-          </div>
-          <p class="standards-note">
-            <em>Standards from this working group will be published here as they are developed.</em>
-          </p>
         </div>
 
         <div class="working-group-card glass">
@@ -42,12 +55,6 @@
             Establishing best practices for transforming raw plant materials into safe,
             effective, and high-quality phytomedicines through standardized processing techniques.
           </p>
-          <div class="group-meta">
-            <span>Processing methods significantly impact the therapeutic properties and safety profile of phytomedicine products.</span>
-          </div>
-          <p class="standards-note">
-            <em>Standards from this working group will be published here as they are developed.</em>
-          </p>
         </div>
 
         <div class="working-group-card glass">
@@ -57,14 +64,7 @@
           </div>
           <p class="group-description">
             Developing standards for storage conditions, packaging requirements, cold chain
-            management, and traceability systems to maintain product integrity throughout
-            the distribution chain.
-          </p>
-          <div class="group-meta">
-            <span>Proper preservation and logistics are critical for maintaining the quality and efficacy of phytomedicines from production to patient.</span>
-          </div>
-          <p class="standards-note">
-            <em>Standards from this working group will be published here as they are developed.</em>
+            management, and traceability systems to maintain product integrity.
           </p>
         </div>
       </div>
@@ -80,12 +80,26 @@
 </template>
 
 <script setup>
+import { computed } from 'vue'
 import Badge from '@/components/ui/Badge.vue'
 import { useSeo } from '@/composables/useSeo.js'
+import { getAllStandards } from '@/composables/useStandard.js'
+
+const allStandards = getAllStandards()
+
+const standards = computed(() => {
+  return allStandards.filter(s => s.category === 'quality')
+})
+
+function formatDate(dateStr) {
+  if (!dateStr) return 'TBD'
+  const date = new Date(dateStr)
+  return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
+}
 
 useSeo({
   title: 'Quality Standards',
-  description: 'SIPM Quality Standards - Working groups for agricultural practices, processing, and logistics in phytomedicine.',
+  description: 'SIPM Quality Standards - Agricultural practices, processing, and logistics in phytomedicine.',
   url: '/standards/quality'
 })
 </script>
@@ -123,6 +137,60 @@ useSeo({
   margin-bottom: var(--spacing-xl);
 }
 
+.standards-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  margin: var(--spacing-lg) 0;
+}
+
+.standard-card {
+  display: block;
+  padding: var(--spacing-lg);
+  text-decoration: none;
+  color: inherit;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.standard-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.standard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-sm);
+}
+
+.standard-number {
+  font-family: var(--font-mono);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-primary);
+}
+
+.standard-title {
+  font-family: var(--font-serif);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text);
+  margin: 0 0 var(--spacing-xs);
+}
+
+.standard-date {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+  margin: 0;
+}
+
+.no-standards {
+  padding: var(--spacing-xl);
+  text-align: center;
+  color: var(--color-text-light);
+}
+
 .working-groups-list {
   display: flex;
   flex-direction: column;
@@ -152,22 +220,7 @@ useSeo({
 .group-description {
   font-size: var(--font-size-base);
   color: var(--color-text);
-  margin-bottom: var(--spacing-md);
-}
-
-.group-meta {
-  font-size: var(--font-size-sm);
-  color: var(--color-text-light);
-  margin-bottom: var(--spacing-md);
-}
-
-.standards-note {
-  font-size: var(--font-size-sm);
-  color: var(--color-text-light);
-  font-style: italic;
   margin: 0;
-  padding-top: var(--spacing-md);
-  border-top: 1px solid var(--color-border);
 }
 
 .content-body a {
