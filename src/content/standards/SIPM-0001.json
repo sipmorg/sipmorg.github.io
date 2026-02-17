@@ -1,0 +1,475 @@
+{
+  "id": "SIPM-0001",
+  "title": "Terminology for Phytomedicine",
+  "attributes": {
+    "docnumber": "0001",
+    "partnumber": "1",
+    "edition": "1",
+    "revdate": "2026-02-17",
+    "copyright-year": "2026",
+    "language": "en",
+    "title-intro-en": "SIPM Standards",
+    "title-main-en": "Terminology for Phytomedicine",
+    "title-part-en": "General vocabulary",
+    "doctype": "international-standard",
+    "docstage": "60",
+    "docsubstage": "60",
+    "technical-committee": "Terminology and Nomenclature",
+    "library-ics": "01.040.11;11.120"
+  },
+  "html": "<div id=\"toc\" class=\"toc\">\n<div id=\"toctitle\">Table of Contents</div>\n<ul class=\"sectlevel1\">\n<li><a href=\"#intro\">1. Introduction</a></li>\n<li><a href=\"#scope\">2. Scope</a></li>\n<li><a href=\"#norm-refs\">Normative references</a></li>\n<li><a href=\"#terms\">3. Terms and definitions</a>\n<ul class=\"sectlevel2\">\n<li><a href=\"#_phytomedicine\">3.1. phytomedicine</a></li>\n<li><a href=\"#_medicinal_plant\">3.2. medicinal plant</a></li>\n<li><a href=\"#_botanical_drug_product\">3.3. botanical drug product</a></li>\n<li><a href=\"#_herbal_preparation\">3.4. herbal preparation</a></li>\n<li><a href=\"#_herbal_substance\">3.5. herbal substance</a></li>\n<li><a href=\"#_active_pharmaceutical_ingredient\">3.6. active pharmaceutical ingredient</a></li>\n<li><a href=\"#_marker_compound\">3.7. marker compound</a></li>\n<li><a href=\"#_active_marker_compound\">3.8. active marker compound</a></li>\n<li><a href=\"#_characteristic_constituent\">3.9. characteristic constituent</a></li>\n<li><a href=\"#_standardized_extract\">3.10. standardized extract</a></li>\n<li><a href=\"#_quantified_extract\">3.11. quantified extract</a></li>\n<li><a href=\"#_native_extract\">3.12. native extract</a></li>\n<li><a href=\"#_processed_extract\">3.13. processed extract</a></li>\n<li><a href=\"#_extraction\">3.14. extraction</a></li>\n<li><a href=\"#_extraction_solvent\">3.15. extraction solvent</a></li>\n<li><a href=\"#_extraction_yield\">3.16. extraction yield</a></li>\n<li><a href=\"#_phytochemistry\">3.17. phytochemistry</a></li>\n<li><a href=\"#_pharmacognosy\">3.18. pharmacognosy</a></li>\n<li><a href=\"#_plant_part\">3.19. plant part</a></li>\n<li><a href=\"#_botanical_identification\">3.20. botanical identification</a></li>\n<li><a href=\"#_adulteration\">3.21. adulteration</a></li>\n<li><a href=\"#_contamination\">3.22. contamination</a></li>\n<li><a href=\"#_quality_control\">3.23. quality control</a></li>\n<li><a href=\"#_stability\">3.24. stability</a></li>\n<li><a href=\"#_shelf_life\">3.25. shelf life</a></li>\n<li><a href=\"#_good_agricultural_and_collection_practices\">3.26. good agricultural and collection practices</a></li>\n<li><a href=\"#_voucher_specimen\">3.27. voucher specimen</a></li>\n<li><a href=\"#_botanical_reference_material\">3.28. botanical reference material</a></li>\n<li><a href=\"#_therapeutic_indication\">3.29. therapeutic indication</a></li>\n<li><a href=\"#_contraindication\">3.30. contraindication</a></li>\n<li><a href=\"#_traditional_use\">3.31. traditional use</a></li>\n<li><a href=\"#_well_established_use\">3.32. well-established use</a></li>\n<li><a href=\"#_safety\">3.33. safety</a></li>\n<li><a href=\"#_efficacy\">3.34. efficacy</a></li>\n<li><a href=\"#_pharmacovigilance\">3.35. pharmacovigilance</a></li>\n<li><a href=\"#_herbal_drug_interaction\">3.36. herbal-drug interaction</a></li>\n</ul>\n</li>\n<li><a href=\"#vocabulary\">4. Additional vocabulary</a>\n<ul class=\"sectlevel2\">\n<li><a href=\"#_extraction_and_processing\">4.1. Extraction and processing</a></li>\n<li><a href=\"#_quality_and_testing\">4.2. Quality and testing</a></li>\n<li><a href=\"#_dosage_forms\">4.3. Dosage forms</a></li>\n<li><a href=\"#_biological_and_cultivation\">4.4. Biological and cultivation</a></li>\n<li><a href=\"#_regulatory_and_classification\">4.5. Regulatory and classification</a></li>\n</ul>\n</li>\n<li><a href=\"#bib\">Bibliography</a></li>\n</ul>\n</div>\n<div id=\"preamble\">\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<div class=\"title\">Foreword</div>\n<p>The Society for Integrative Phytomedicine (SIPM) is an international organization\ndedicated to the development of standards for phytomedicine, medicinal fungi,\nand related natural health products. The work of preparing SIPM Standards is\ncarried out through technical committees composed of experts from academia,\nindustry, regulatory bodies, and healthcare practice.</p>\n</div>\n<div class=\"paragraph\">\n<p>The procedures used to develop this document and those intended for its further\nmaintenance are described in the SIPM Directives, Part 1. In particular, the\ndifferent approval criteria needed for the different types of SIPM documents\nshould be noted. This document was drafted in accordance with the editorial\nrules of the SIPM Directives, Part 2.</p>\n</div>\n<div class=\"paragraph\">\n<p>SIPM draws attention to the possibility that the implementation of this document\nmay involve the use of intellectual property. SIPM takes no position concerning\nthe evidence, validity or applicability of any claimed intellectual property\nrights in respect thereof. As of the date of publication of this document, SIPM\nhad not received notice of any patents which may be required to implement this\ndocument. However, implementers are cautioned that this may not represent the\nlatest information.</p>\n</div>\n<div class=\"paragraph\">\n<p>Any trade name used in this document is information given for the convenience of\nusers and does not constitute an endorsement.</p>\n</div>\n<div class=\"paragraph\">\n<p>For an explanation of the voluntary nature of standards, the meaning of SIPM\nspecific terms and expressions related to conformity assessment, as well as\ninformation about SIPM&#8217;s adherence to the World Trade Organization (WTO)\nprinciples in the Technical Barriers to Trade (TBT), see <a href=\"https://sipm.org/about\" class=\"bare\">https://sipm.org/about</a>.</p>\n</div>\n<div class=\"paragraph\">\n<p>This document was prepared by Technical Committee TC 1,\n<em>Terminology and Nomenclature</em>.</p>\n</div>\n<div class=\"paragraph\">\n<p>This is the first edition of SIPM 0001.</p>\n</div>\n<div class=\"paragraph\">\n<p>A list of all parts in the SIPM 0001 series can be found on the SIPM\nwebsite.</p>\n</div>\n<div class=\"paragraph\">\n<p>Any feedback or questions on this document should be directed to the SIPM\nSecretariat at <a href=\"mailto:standards@sipm.org\">standards@sipm.org</a>.</p>\n</div>\n</div>\n</div>\n<div class=\"sect1\">\n<h2 id=\"intro\">1. Introduction</h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>The field of phytomedicine encompasses the study and therapeutic use of plant-\nderived substances for the prevention and treatment of disease. As interest in\nnatural health products has grown globally, the need for standardized terminology\nhas become increasingly important to ensure clear communication among\nresearchers, healthcare practitioners, regulators, manufacturers, and consumers.</p>\n</div>\n<div class=\"paragraph\">\n<p>This document establishes a comprehensive vocabulary for phytomedicine that\nprovides a foundation for consistent use of terms across scientific literature,\nregulatory documents, product labels, and clinical communications. The\nterminology presented here has been developed through consensus among\ninternational experts in pharmacognosy, botany, chemistry, pharmacology,\ntoxicology, and clinical medicine.</p>\n</div>\n<div class=\"paragraph\">\n<p>The terminology in this document is organized into two main sections:</p>\n</div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Clause 3 defines core concepts that are essential for understanding\nphytomedicine and its related fields</p>\n</li>\n<li>\n<p>Clause 4 provides additional vocabulary for specific domains within\nphytomedicine</p>\n</li>\n</ul>\n</div>\n<div class=\"paragraph\">\n<p>This document is intended to serve as a reference for authors of scientific\npapers, developers of regulatory guidelines, manufacturers of phytomedicine\nproducts, and healthcare professionals who recommend or prescribe phytomedicines.</p>\n</div>\n<div class=\"paragraph\">\n<p>The development of this terminology standard reflects SIPM&#8217;s commitment to\nadvancing the scientific basis of phytomedicine while respecting traditional\nknowledge systems. The definitions provided here are designed to be precise\nenough for scientific use while remaining accessible to diverse stakeholders\nin the phytomedicine community.</p>\n</div>\n<div class=\"paragraph\">\n<p>Future revisions of this document will incorporate new terms as the field\nevolves and will refine existing definitions based on scientific advances and\nfeedback from users of the standard.</p>\n</div>\n</div>\n</div>\n<div class=\"sect1\">\n<h2 id=\"scope\">2. Scope</h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>This document defines terms and establishes a vocabulary for the field of\nphytomedicine.</p>\n</div>\n<div class=\"paragraph\">\n<p>It is applicable to:</p>\n</div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Scientific research and publication in phytomedicine</p>\n</li>\n<li>\n<p>Development and communication of regulatory requirements</p>\n</li>\n<li>\n<p>Manufacturing, quality control, and quality assurance of phytomedicine products</p>\n</li>\n<li>\n<p>Clinical practice and patient communication</p>\n</li>\n<li>\n<p>Education and training in phytomedicine and related fields</p>\n</li>\n<li>\n<p>Trade and commerce of phytomedicine products and raw materials</p>\n</li>\n</ul>\n</div>\n<div class=\"paragraph\">\n<p>This document does not cover:</p>\n</div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Detailed taxonomic classification of medicinal plants (addressed in\nSIPM-0002)</p>\n</li>\n<li>\n<p>Specific analytical methods (addressed in SIPM-0300 series)</p>\n</li>\n<li>\n<p>Clinical protocols (addressed in SIPM-0400 series)</p>\n</li>\n</ul>\n</div>\n<div class=\"paragraph\">\n<p>The terms defined in this document are intended to be used in conjunction with\nother SIPM standards and may be referenced by external standards and regulatory\ndocuments.</p>\n</div>\n</div>\n</div>\n<div class=\"sect1\">\n<h2 id=\"norm-refs\">Normative references</h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>The following documents are referred to in the text in such a way that some or\nall of their content constitutes requirements of this document. For dated\nreferences, only the edition cited applies. For undated references, the latest\nedition of the referenced document (including any amendments) applies.</p>\n</div>\n<div class=\"ulist bibliography\">\n<ul class=\"bibliography\">\n<li>\n<p><a id=\"WHOGMP\"></a>[WHO Guidelines on Good Agricultural and Collection Practices (GACP) for Medicinal Plants]</p>\n</li>\n<li>\n<p><a id=\"WHOTERM\"></a>[WHO International Standard Terminologies on Traditional Medicine in the Western Pacific Region]</p>\n</li>\n<li>\n<p><a id=\"ICHQ3R8\"></a>[ICH Q3(R8) Guideline for Elemental Impurities]</p>\n</li>\n<li>\n<p><a id=\"ISO9000\"></a>[ISO 9000:2015]</p>\n</li>\n<li>\n<p><a id=\"ISO11095\"></a>[ISO 11095:1996]</p>\n</li>\n<li>\n<p><a id=\"EP10th\"></a>[European Pharmacopoeia 10th Edition]</p>\n</li>\n<li>\n<p><a id=\"USPNF\"></a>[United States Pharmacopeia - National Formulary]</p>\n</li>\n</ul>\n</div>\n</div>\n</div>\n<div class=\"sect1\">\n<h2 id=\"terms\">3. Terms and definitions</h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>For the purposes of this document, the following terms and definitions apply.</p>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_phytomedicine\">3.1. phytomedicine</h3>\n<div class=\"paragraph\">\n<p>alt:[herbal medicine]\nalt:[plant medicine]</p>\n</div>\n<div class=\"paragraph\">\n<p>medicinal product whose active ingredients are exclusively derived from one or\nmore plants, algae, fungi, or lichens in processed or unprocessed form</p>\n</div>\n<div class=\"paragraph\">\n<p>NOTE 1: Phytomedicines may contain plant parts, plant juices, plant extracts,\nor purified compounds isolated from plants.</p>\n</div>\n<div class=\"paragraph\">\n<p>NOTE 2: In some regulatory contexts, the term \"herbal medicinal product\" is\nused synonymously.</p>\n</div>\n<div class=\"paragraph source\">\n<p><a href=\"#WHOTERM\">page 35</a></p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_medicinal_plant\">3.2. medicinal plant</h3>\n<div class=\"paragraph\">\n<p>plant species that contains substances which can be used for therapeutic\npurposes or which are precursors for the synthesis of useful drugs</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nMedicinal plants may be used in their whole form or as a source of\nisolated compounds.\n</td>\n</tr>\n</table>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_botanical_drug_product\">3.3. botanical drug product</h3>\n<div class=\"paragraph\">\n<p>alt:[botanical drug]</p>\n</div>\n<div class=\"paragraph\">\n<p>finished product that contains a botanical drug substance, generally as the\nactive ingredient, and is intended to diagnose, cure, treat, mitigate, or\nprevent disease</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nThis term is commonly used in regulatory contexts, particularly in the\nUnited States.\n</td>\n</tr>\n</table>\n</div>\n<div class=\"paragraph source\">\n<p><a href=\"#USPNF\">[United States Pharmacopeia - National Formulary]</a></p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_herbal_preparation\">3.4. herbal preparation</h3>\n<div class=\"paragraph\">\n<p>preparation obtained by subjecting herbal substances to treatments such as\nextraction, distillation, expression, fractionation, purification,\nconcentration, or fermentation</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nHerbal preparations include, but are not limited to, comminuted or\npowdered herbal substances, tinctures, extracts, essential oils, expressed\njuices, and processed exudates.\n</td>\n</tr>\n</table>\n</div>\n<div class=\"paragraph source\">\n<p><a href=\"#EP10th\">[European Pharmacopoeia 10th Edition]</a></p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_herbal_substance\">3.5. herbal substance</h3>\n<div class=\"paragraph\">\n<p>alt:[herbal drug]\nalt:[plant material]</p>\n</div>\n<div class=\"paragraph\">\n<p>whole, fragmented, or cut plants, parts of plants, algae, fungi, or lichen in\nan unprocessed state, usually in dried form but sometimes fresh</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nCertain exudates that have not been subjected to a specific treatment are\nalso considered herbal substances.\n</td>\n</tr>\n</table>\n</div>\n<div class=\"paragraph source\">\n<p><a href=\"#EP10th\">[European Pharmacopoeia 10th Edition]</a></p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_active_pharmaceutical_ingredient\">3.6. active pharmaceutical ingredient</h3>\n<div class=\"paragraph\">\n<p>alt:[API]\nalt:[active ingredient]</p>\n</div>\n<div class=\"paragraph\">\n<p>substance or mixture of substances intended to be used in the manufacture of a\ndrug product and that, when used in the production of a drug, becomes an active\ningredient in the drug product</p>\n</div>\n<div class=\"paragraph\">\n<p>NOTE 1: In phytomedicine, the API may be a single compound or a defined\nmixture of compounds derived from the plant material.</p>\n</div>\n<div class=\"paragraph\">\n<p>NOTE 2: For some phytomedicines, the active constituents are not fully\ncharacterized, and the API is defined as the herbal preparation or its\nstandardized extract.</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_marker_compound\">3.7. marker compound</h3>\n<div class=\"paragraph\">\n<p>chemical constituent or group of constituents characteristic of a particular\nplant species or plant part, used for identification, quality assessment, or\nstandardization purposes</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nMarker compounds are not necessarily responsible for the therapeutic\nactivity of the phytomedicine.\n</td>\n</tr>\n</table>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_active_marker_compound\">3.8. active marker compound</h3>\n<div class=\"paragraph\">\n<p>marker compound that contributes to the therapeutic activity of a phytomedicine</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nActive markers may be used for standardization when the full mechanism\nof action is not understood.\n</td>\n</tr>\n</table>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_characteristic_constituent\">3.9. characteristic constituent</h3>\n<div class=\"paragraph\">\n<p>alt：【diagnostic marker】</p>\n</div>\n<div class=\"paragraph\">\n<p>chemical constituent that is unique to, or highly characteristic of, a\nparticular plant species and can be used for authentication purposes</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_standardized_extract\">3.10. standardized extract</h3>\n<div class=\"paragraph\">\n<p>herbal preparation that has been processed to contain a defined amount of one\nor more specified constituents, typically expressed as a percentage or range</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nStandardization may be based on active markers, analytical markers, or\ncharacteristic constituents.\n</td>\n</tr>\n</table>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_quantified_extract\">3.11. quantified extract</h3>\n<div class=\"paragraph\">\n<p>herbal preparation with defined content ranges for one or more groups of\nconstituents</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nUnlike standardized extracts, quantified extracts specify acceptable\nranges rather than target values.\n</td>\n</tr>\n</table>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_native_extract\">3.12. native extract</h3>\n<div class=\"paragraph\">\n<p>alt:[genuine extract]</p>\n</div>\n<div class=\"paragraph\">\n<p>extract that contains only constituents naturally present in the source\nmaterial, without added excipients or further processing that would alter its\ncomposition</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_processed_extract\">3.13. processed extract</h3>\n<div class=\"paragraph\">\n<p>extract that has undergone additional processing steps beyond initial\nextraction, which may include purification, concentration, drying, or addition\nof excipients</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_extraction\">3.14. extraction</h3>\n<div class=\"paragraph\">\n<p>process of separating active or desirable constituents from plant material using\na solvent or other physical or chemical means</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_extraction_solvent\">3.15. extraction solvent</h3>\n<div class=\"paragraph\">\n<p>solvent used to extract desired constituents from plant material</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nCommon extraction solvents include water, ethanol, methanol,\nsupercritical carbon dioxide, and various oils.\n</td>\n</tr>\n</table>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_extraction_yield\">3.16. extraction yield</h3>\n<div class=\"paragraph\">\n<p>alt:[extract yield]</p>\n</div>\n<div class=\"paragraph\">\n<p>amount of extract obtained from a specified amount of starting plant material,\ntypically expressed as a percentage by mass</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_phytochemistry\">3.17. phytochemistry</h3>\n<div class=\"paragraph\">\n<p>branch of chemistry dealing with the chemical constituents of plants and their\nproperties, reactions, and methods of isolation and identification</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_pharmacognosy\">3.18. pharmacognosy</h3>\n<div class=\"paragraph\">\n<p>study of medicines derived from natural sources, including plants, animals,\nand microorganisms, encompassing their physical, chemical, biochemical, and\nbiological properties</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_plant_part\">3.19. plant part</h3>\n<div class=\"paragraph\">\n<p>alt:[plant organ]\nalt:[medicinal plant part]</p>\n</div>\n<div class=\"paragraph\">\n<p>specific organ or portion of a plant that is used for medicinal purposes</p>\n</div>\n<div class=\"exampleblock\">\n<div class=\"content\">\nRoot, rhizome, bark, leaf, flower, fruit, seed, whole herb.\n</div>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_botanical_identification\">3.20. botanical identification</h3>\n<div class=\"paragraph\">\n<p>process of determining the identity of a plant material to species level,\nincluding verification of the plant part used</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_adulteration\">3.21. adulteration</h3>\n<div class=\"paragraph\">\n<p>intentional addition of non-authentic material or the substitution of authentic\nmaterial with inferior or harmful substances</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nAdulteration may involve addition of synthetic drugs, other plant\nspecies, or contaminants.\n</td>\n</tr>\n</table>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_contamination\">3.22. contamination</h3>\n<div class=\"paragraph\">\n<p>unintended presence of harmful or undesirable substances in plant material or\nherbal preparations</p>\n</div>\n<div class=\"exampleblock\">\n<div class=\"content\">\nHeavy metals, pesticides, mycotoxins, microorganisms, foreign plant material.\n</div>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_quality_control\">3.23. quality control</h3>\n<div class=\"paragraph\">\n<p>operational techniques and activities used to fulfill requirements for quality</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nIn phytomedicine, quality control typically includes identity testing,\npurity testing, potency assessment, and stability testing.\n</td>\n</tr>\n</table>\n</div>\n<div class=\"paragraph source\">\n<p><a href=\"#ISO9000\">clause 3.3.7</a></p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_stability\">3.24. stability</h3>\n<div class=\"paragraph\">\n<p>capacity of a phytomedicine product to remain within established specifications\nfor identity, strength, quality, and purity throughout its shelf life</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_shelf_life\">3.25. shelf life</h3>\n<div class=\"paragraph\">\n<p>alt:[expiration dating period]</p>\n</div>\n<div class=\"paragraph\">\n<p>time period during which a phytomedicine product is expected to remain within\napproved shelf-life specifications, provided it is stored under the conditions\ndefined on the container label</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_good_agricultural_and_collection_practices\">3.26. good agricultural and collection practices</h3>\n<div class=\"paragraph\">\n<p>alt:[GACP]</p>\n</div>\n<div class=\"paragraph\">\n<p>practices addressing quality assurance and control in the production and\ncollection of medicinal plants</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nGACP covers cultivation, harvesting, post-harvest processing, storage,\nand transportation.\n</td>\n</tr>\n</table>\n</div>\n<div class=\"paragraph source\">\n<p><a href=\"#WHOGMP\">[WHO Guidelines on Good Agricultural and Collection Practices (GACP) for Medicinal Plants]</a></p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_voucher_specimen\">3.27. voucher specimen</h3>\n<div class=\"paragraph\">\n<p>preserved sample of plant material that serves as a permanent record of the\nsource material used in scientific studies or commercial production</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nVoucher specimens enable verification of botanical identity and are\ntypically deposited in recognized herbaria.\n</td>\n</tr>\n</table>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_botanical_reference_material\">3.28. botanical reference material</h3>\n<div class=\"paragraph\">\n<p>alt:[BRM]</p>\n</div>\n<div class=\"paragraph\">\n<p>well-characterized material used as a standard for comparison in identity\ntesting and quality control</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nBotanical reference materials may be whole plant material, plant parts,\nor processed extracts.\n</td>\n</tr>\n</table>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_therapeutic_indication\">3.29. therapeutic indication</h3>\n<div class=\"paragraph\">\n<p>medical condition or disease state for which a phytomedicine is intended to\nbe used</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_contraindication\">3.30. contraindication</h3>\n<div class=\"paragraph\">\n<p>condition or factor that serves as a reason to withhold a certain medical\ntreatment due to the harm that it would cause the patient</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_traditional_use\">3.31. traditional use</h3>\n<div class=\"paragraph\">\n<p>use of a medicinal plant or phytomedicine based on accumulated knowledge and\nexperience over generations within a specific cultural context</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_well_established_use\">3.32. well-established use</h3>\n<div class=\"paragraph\">\n<p>use of a medicinal plant or phytomedicine that has been recognized for at\nleast 10 years within a specific jurisdiction with demonstrated safety and\nefficacy</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nWell-established use may be a basis for simplified regulatory approval\nin some jurisdictions.\n</td>\n</tr>\n</table>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_safety\">3.33. safety</h3>\n<div class=\"paragraph\">\n<p>absence of unacceptable risk of harm to human health under intended or\nforeseeable conditions of use</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_efficacy\">3.34. efficacy</h3>\n<div class=\"paragraph\">\n<p>ability of a phytomedicine to produce a beneficial effect under controlled\nconditions</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_pharmacovigilance\">3.35. pharmacovigilance</h3>\n<div class=\"paragraph\">\n<p>science and activities relating to the detection, assessment, understanding,\nand prevention of adverse effects or any other drug-related problems</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_herbal_drug_interaction\">3.36. herbal-drug interaction</h3>\n<div class=\"paragraph\">\n<p>alt:[herb-drug interaction]\nalt:[HD interaction]</p>\n</div>\n<div class=\"paragraph\">\n<p>modification of the effect of a drug when co-administered with a herbal\npreparation, or modification of the effect of a herbal preparation when\nco-administered with a drug</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nInteractions may result in increased or decreased drug effects,\nor new adverse reactions.\n</td>\n</tr>\n</table>\n</div>\n<table id=\"table-markers\" class=\"tableblock frame-all grid-all stretch\">\n<caption class=\"title\">Table 1. Marker compound classification</caption>\n<colgroup>\n<col style=\"width: 25%;\">\n<col style=\"width: 75%;\">\n</colgroup>\n<thead>\n<tr>\n<th class=\"tableblock halign-left valign-top\">Classification</th>\n<th class=\"tableblock halign-left valign-top\">Description</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Active marker</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Compound that contributes to the therapeutic effect and is used for\n  standardization</p></td>\n</tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Analytical marker</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Compound used for identification and quantification purposes, not necessarily\n  therapeutically active</p></td>\n</tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Toxicity marker</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Compound that indicates potential toxicity concerns</p></td>\n</tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Stability marker</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Compound that degrades in a predictable manner and indicates product stability</p></td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n</div>\n<div class=\"sect1\">\n<h2 id=\"vocabulary\">4. Additional vocabulary</h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>This clause provides additional vocabulary organized by domain.</p>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_extraction_and_processing\">4.1. Extraction and processing</h3>\n<div class=\"sect3\">\n<h4 id=\"_maceration\">4.1.1. maceration</h4>\n<div class=\"paragraph\">\n<p>extraction process in which plant material is soaked in a solvent at room\ntemperature for an extended period</p>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_percolation\">4.1.2. percolation</h4>\n<div class=\"paragraph\">\n<p>extraction process in which solvent passes through a column or bed of plant\nmaterial, typically under gravity or low pressure</p>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_decoction\">4.1.3. decoction</h4>\n<div class=\"paragraph\">\n<p>extraction process involving boiling plant material in water</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nDecoction is traditionally used for hard plant materials such as roots,\nbark, and seeds.\n</td>\n</tr>\n</table>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_infusion\">4.1.4. infusion</h4>\n<div class=\"paragraph\">\n<p>extraction process in which plant material is steeped in hot or cold water\nwithout boiling</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nInfusion is traditionally used for delicate plant materials such as\nleaves and flowers.\n</td>\n</tr>\n</table>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_tincture\">4.1.5. tincture</h4>\n<div class=\"paragraph\">\n<p>alt:[alcoholic extract]</p>\n</div>\n<div class=\"paragraph\">\n<p>liquid preparation obtained by maceration or percolation of plant material in\na mixture of alcohol and water</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nTinctures are typically prepared at defined drug-to-extract ratios.\n</td>\n</tr>\n</table>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_fluid_extract\">4.1.6. fluid extract</h4>\n<div class=\"paragraph\">\n<p>alt:[liquid extract]</p>\n</div>\n<div class=\"paragraph\">\n<p>liquid preparation containing the active constituents of plant material,\ntypically more concentrated than a tincture</p>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_dry_extract\">4.1.7. dry extract</h4>\n<div class=\"paragraph\">\n<p>solid extract obtained by removal of the extraction solvent, typically through\nevaporation or freeze-drying</p>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_soft_extract\">4.1.8. soft extract</h4>\n<div class=\"paragraph\">\n<p>alt:[semi-solid extract]</p>\n</div>\n<div class=\"paragraph\">\n<p>extract with a viscous or semi-solid consistency, typically containing\nresidual moisture or solvent</p>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_drug_to_extract_ratio\">4.1.9. drug-to-extract ratio</h4>\n<div class=\"paragraph\">\n<p>alt:[DER]</p>\n</div>\n<div class=\"paragraph\">\n<p>ratio of the mass of starting plant material to the mass of the resulting\nextract</p>\n</div>\n<div class=\"exampleblock\">\n<div class=\"content\">\nA 10:1 drug-to-extract ratio indicates that 10 kg of plant material yields\n1 kg of extract.\n</div>\n</div>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_quality_and_testing\">4.2. Quality and testing</h3>\n<div class=\"sect3\">\n<h4 id=\"_identity_testing\">4.2.1. identity testing</h4>\n<div class=\"paragraph\">\n<p>analytical procedures performed to confirm that a material is what it purports\nto be</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nIdentity testing may include macroscopic examination, microscopic\nanalysis, chromatographic fingerprinting, and spectroscopic methods.\n</td>\n</tr>\n</table>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_purity_testing\">4.2.2. purity testing</h4>\n<div class=\"paragraph\">\n<p>analytical procedures performed to determine the presence and amount of\nimpurities or contaminants</p>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_potency\">4.2.3. potency</h4>\n<div class=\"paragraph\">\n<p>measure of the biological activity or strength of a phytomedicine, typically\nexpressed relative to a reference standard</p>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_fingerprint\">4.2.4. fingerprint</h4>\n<div class=\"paragraph\">\n<p>chromatographic or spectroscopic pattern that is characteristic of a particular\nplant material or extract</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nFingerprints are used for identity confirmation and quality comparison.\n</td>\n</tr>\n</table>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_specification\">4.2.5. specification</h4>\n<div class=\"paragraph\">\n<p>list of tests, references to analytical procedures, and appropriate acceptance\ncriteria for a material</p>\n</div>\n<div class=\"paragraph source\">\n<p><a href=\"#ICHQ3r8\">[ICHQ3r8]</a></p>\n</div>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_dosage_forms\">4.3. Dosage forms</h3>\n<div class=\"sect3\">\n<h4 id=\"_oral_liquid\">4.3.1. oral liquid</h4>\n<div class=\"paragraph\">\n<p>alt:[liquid for oral use]</p>\n</div>\n<div class=\"paragraph\">\n<p>liquid preparation intended for oral administration</p>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_tablet\">4.3.2. tablet</h4>\n<div class=\"paragraph\">\n<p>solid dosage form containing phytomedicine ingredients, usually prepared by\ncompression</p>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_capsule\">4.3.3. capsule</h4>\n<div class=\"paragraph\">\n<p>solid dosage form in which the phytomedicine ingredient is enclosed in a\nsoluble container, typically made of gelatin or plant-derived materials</p>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_topical_preparation\">4.3.4. topical preparation</h4>\n<div class=\"paragraph\">\n<p>alt:[preparation for dermal use]</p>\n</div>\n<div class=\"paragraph\">\n<p>preparation intended for application to the skin or mucous membranes</p>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_powdered_extract\">4.3.5. powdered extract</h4>\n<div class=\"paragraph\">\n<p>alt:[spray-dried extract]</p>\n</div>\n<div class=\"paragraph\">\n<p>dry extract in powder form, typically produced by spray drying</p>\n</div>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_biological_and_cultivation\">4.4. Biological and cultivation</h3>\n<div class=\"sect3\">\n<h4 id=\"_cultivation\">4.4.1. cultivation</h4>\n<div class=\"paragraph\">\n<p>practice of growing medicinal plants under controlled or semi-controlled\nconditions</p>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_wild_collection\">4.4.2. wild collection</h4>\n<div class=\"paragraph\">\n<p>alt:[wild harvesting]\nalt:[wild crafting]</p>\n</div>\n<div class=\"paragraph\">\n<p>gathering of medicinal plants from their natural habitat</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nWild collection requires sustainable practices to ensure species\nconservation.\n</td>\n</tr>\n</table>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_sustainable_harvesting\">4.4.3. sustainable harvesting</h4>\n<div class=\"paragraph\">\n<p>collection of plant material in a manner that ensures the long-term survival\nof the species and its ecosystem</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nSustainable harvesting considers regeneration rates, ecological impact,\nand biodiversity conservation.\n</td>\n</tr>\n</table>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_good_agricultural_practices\">4.4.4. Good Agricultural Practices</h4>\n<div class=\"paragraph\">\n<p>alt:[GAP]</p>\n</div>\n<div class=\"paragraph\">\n<p>standards and practices for the production of medicinal plants under\ncontrolled agricultural conditions</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nGAP covers site selection, propagation, cultivation, plant protection,\nharvesting, and primary processing.\n</td>\n</tr>\n</table>\n</div>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_regulatory_and_classification\">4.5. Regulatory and classification</h3>\n<div class=\"sect3\">\n<h4 id=\"_dietary_supplement\">4.5.1. dietary supplement</h4>\n<div class=\"paragraph\">\n<p>product intended to supplement the diet that contains one or more dietary\ningredients, including vitamins, minerals, herbs, or other botanicals</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nRegulatory classification of phytomedicines as dietary supplements varies\nby jurisdiction.\n</td>\n</tr>\n</table>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_traditional_herbal_medicinal_product\">4.5.2. traditional herbal medicinal product</h4>\n<div class=\"paragraph\">\n<p>alt:[THMP]</p>\n</div>\n<div class=\"paragraph\">\n<p>medicinal product whose active ingredients are exclusively herbal substances\nor herbal preparations, intended and designed for use without the supervision\nof a medical practitioner</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nTraditional use of at least 30 years, including 15 years within the\nrelevant jurisdiction, is typically required for THMP status.\n</td>\n</tr>\n</table>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_health_claim\">4.5.3. health claim</h4>\n<div class=\"paragraph\">\n<p>statement that describes the relationship between a food or food component\nand a disease or health-related condition</p>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_structure_function_claim\">4.5.4. structure-function claim</h4>\n<div class=\"paragraph\">\n<p>statement that describes the role of a nutrient or dietary ingredient intended\nto affect the normal structure or function of the human body</p>\n</div>\n<table id=\"table-preparations\" class=\"tableblock frame-all grid-all stretch\">\n<caption class=\"title\">Table 2. Common herbal preparations and their characteristics</caption>\n<colgroup>\n<col style=\"width: 25%;\">\n<col style=\"width: 25%;\">\n<col style=\"width: 50%;\">\n</colgroup>\n<thead>\n<tr>\n<th class=\"tableblock halign-left valign-top\">Preparation type</th>\n<th class=\"tableblock halign-left valign-top\">Solvent/Method</th>\n<th class=\"tableblock halign-left valign-top\">Characteristics</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Tincture</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Alcohol/water mixture, maceration</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Liquid, typically 1:5 to 1:10 DER</p></td>\n</tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Fluid extract</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Alcohol/water mixture, percolation</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Liquid, typically 1:1 DER</p></td>\n</tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Dry extract</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Various solvents, evaporation</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Solid powder, high concentration</p></td>\n</tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Soft extract</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Various solvents, partial evaporation</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Viscous, contains residual solvent</p></td>\n</tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Essential oil</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Steam distillation</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Volatile, aromatic liquid</p></td>\n</tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Expressed juice</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Mechanical pressing</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Fresh plant liquid</p></td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n</div>\n</div>\n<div class=\"sect1\">\n<h2 id=\"bib\">Bibliography</h2>\n<div class=\"sectionbody\">\n<div class=\"ulist bibliography\">\n<ul class=\"bibliography\">\n<li>\n<p><a id=\"ISO3696\"></a>[ISO 3696:1987], Water for analytical laboratory use&#8201;&#8212;&#8201;Specification\nand test methods</p>\n</li>\n<li>\n<p><a id=\"ISO5725-1\"></a>[ISO 5725-1:1994], Accuracy (trueness and precision) of\nmeasurement methods and results&#8201;&#8212;&#8201;Part 1: General principles and definitions</p>\n</li>\n<li>\n<p><a id=\"ISO5725-2\"></a>[ISO 5725-2:1994], Accuracy (trueness and precision) of\nmeasurement methods and results&#8201;&#8212;&#8201;Part 2: Basic method for the determination\nof repeatability and reproducibility of a standard measurement method</p>\n</li>\n<li>\n<p><a id=\"WHOQCM\"></a>[WHO Quality Control Methods for Medicinal Plant Materials], World\nHealth Organization, Geneva, 1998</p>\n</li>\n<li>\n<p><a id=\"WHOPHARM\"></a>[WHO Monographs on Selected Medicinal Plants], World Health\nOrganization, Geneva, Vols. 1-4</p>\n</li>\n<li>\n<p><a id=\"ESCP\"></a>[European Scientific Cooperative on Phytotherapy (ESCOP) Monographs],\nESCOP, Exeter, UK</p>\n</li>\n<li>\n<p>[<a id=\"BMABlumenthal\"></a>, <em>The ABC Clinical Guide to Herbs</em>.\nAmerican Botanical Council, Austin, TX, 2003</p>\n</li>\n<li>\n<p>[<a id=\"Bruneton\"></a>, <em>Pharmacognosy, Phytochemistry, Medicinal Plants</em>.\n2nd ed. Lavoisier Publishing, Paris, 1999</p>\n</li>\n<li>\n<p>[<a id=\"Evans\"></a>, <em>Trease and Evans' Pharmacognosy</em>. 15th ed.\nSaunders, Edinburgh, 2002</p>\n</li>\n<li>\n<p>[<a id=\"Heinrich\"></a>, <em>Fundamentals of Pharmacognosy and Phytotherapy</em>.\n2nd ed. Churchill Livingstone, Edinburgh, 2012</p>\n</li>\n<li>\n<p>[<a id=\"VanBreemen\"></a>, Developing standards for validating\nbotanical dietary supplements. <em>J. AOAC Int.</em> 2006, <strong>89</strong> (1) pp. 1-4</p>\n</li>\n</ul>\n</div>\n</div>\n</div>",
+  "toc": [
+    {
+      "id": "intro",
+      "title": "Introduction",
+      "level": 1,
+      "children": []
+    },
+    {
+      "id": "scope",
+      "title": "Scope",
+      "level": 1,
+      "children": []
+    },
+    {
+      "id": "norm-refs",
+      "title": "Normative references",
+      "level": 1,
+      "children": []
+    },
+    {
+      "id": "terms",
+      "title": "Terms and definitions",
+      "level": 1,
+      "children": [
+        {
+          "id": "_phytomedicine",
+          "title": "phytomedicine",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_medicinal_plant",
+          "title": "medicinal plant",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_botanical_drug_product",
+          "title": "botanical drug product",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_herbal_preparation",
+          "title": "herbal preparation",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_herbal_substance",
+          "title": "herbal substance",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_active_pharmaceutical_ingredient",
+          "title": "active pharmaceutical ingredient",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_marker_compound",
+          "title": "marker compound",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_active_marker_compound",
+          "title": "active marker compound",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_characteristic_constituent",
+          "title": "characteristic constituent",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_standardized_extract",
+          "title": "standardized extract",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_quantified_extract",
+          "title": "quantified extract",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_native_extract",
+          "title": "native extract",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_processed_extract",
+          "title": "processed extract",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_extraction",
+          "title": "extraction",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_extraction_solvent",
+          "title": "extraction solvent",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_extraction_yield",
+          "title": "extraction yield",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_phytochemistry",
+          "title": "phytochemistry",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_pharmacognosy",
+          "title": "pharmacognosy",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_plant_part",
+          "title": "plant part",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_botanical_identification",
+          "title": "botanical identification",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_adulteration",
+          "title": "adulteration",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_contamination",
+          "title": "contamination",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_quality_control",
+          "title": "quality control",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_stability",
+          "title": "stability",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_shelf_life",
+          "title": "shelf life",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_good_agricultural_and_collection_practices",
+          "title": "good agricultural and collection practices",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_voucher_specimen",
+          "title": "voucher specimen",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_botanical_reference_material",
+          "title": "botanical reference material",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_therapeutic_indication",
+          "title": "therapeutic indication",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_contraindication",
+          "title": "contraindication",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_traditional_use",
+          "title": "traditional use",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_well_established_use",
+          "title": "well-established use",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_safety",
+          "title": "safety",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_efficacy",
+          "title": "efficacy",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_pharmacovigilance",
+          "title": "pharmacovigilance",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_herbal_drug_interaction",
+          "title": "herbal-drug interaction",
+          "level": 2,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Additional vocabulary",
+      "level": 1,
+      "children": [
+        {
+          "id": "_extraction_and_processing",
+          "title": "Extraction and processing",
+          "level": 2,
+          "children": [
+            {
+              "id": "_maceration",
+              "title": "maceration",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_percolation",
+              "title": "percolation",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_decoction",
+              "title": "decoction",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_infusion",
+              "title": "infusion",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_tincture",
+              "title": "tincture",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_fluid_extract",
+              "title": "fluid extract",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_dry_extract",
+              "title": "dry extract",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_soft_extract",
+              "title": "soft extract",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_drug_to_extract_ratio",
+              "title": "drug-to-extract ratio",
+              "level": 3,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "_quality_and_testing",
+          "title": "Quality and testing",
+          "level": 2,
+          "children": [
+            {
+              "id": "_identity_testing",
+              "title": "identity testing",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_purity_testing",
+              "title": "purity testing",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_potency",
+              "title": "potency",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_fingerprint",
+              "title": "fingerprint",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_specification",
+              "title": "specification",
+              "level": 3,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "_dosage_forms",
+          "title": "Dosage forms",
+          "level": 2,
+          "children": [
+            {
+              "id": "_oral_liquid",
+              "title": "oral liquid",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_tablet",
+              "title": "tablet",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_capsule",
+              "title": "capsule",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_topical_preparation",
+              "title": "topical preparation",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_powdered_extract",
+              "title": "powdered extract",
+              "level": 3,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "_biological_and_cultivation",
+          "title": "Biological and cultivation",
+          "level": 2,
+          "children": [
+            {
+              "id": "_cultivation",
+              "title": "cultivation",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_wild_collection",
+              "title": "wild collection",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_sustainable_harvesting",
+              "title": "sustainable harvesting",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_good_agricultural_practices",
+              "title": "Good Agricultural Practices",
+              "level": 3,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "_regulatory_and_classification",
+          "title": "Regulatory and classification",
+          "level": 2,
+          "children": [
+            {
+              "id": "_dietary_supplement",
+              "title": "dietary supplement",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_traditional_herbal_medicinal_product",
+              "title": "traditional herbal medicinal product",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_health_claim",
+              "title": "health claim",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_structure_function_claim",
+              "title": "structure-function claim",
+              "level": 3,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bib",
+      "title": "Bibliography",
+      "level": 1,
+      "children": []
+    }
+  ],
+  "raw": "= Terminology for Phytomedicine\n:docnumber: 0001\n:partnumber: 1\n:edition: 1\n:revdate: 2026-02-17\n:copyright-year: 2026\n:language: en\n:title-intro-en: SIPM Standards\n:title-main-en: Terminology for Phytomedicine\n:title-part-en: General vocabulary\n:doctype: international-standard\n:docstage: 60\n:docsubstage: 60\n:technical-committee-number: 1\n:technical-committee: Terminology and Nomenclature\n:library-ics: 01.040.11;11.120\n:mn-document-class: iso\n:mn-output-extensions: xml,html,doc,pdf\n\ninclude::sections/00-foreword.adoc[]\n\ninclude::sections/00-introduction.adoc[]\n\ninclude::sections/01-scope.adoc[]\n\ninclude::sections/02-normref.adoc[]\n\ninclude::sections/03-terms.adoc[]\n\ninclude::sections/04-vocabulary.adoc[]\n\ninclude::sections/b0-bibliography.adoc[]\n"
+}

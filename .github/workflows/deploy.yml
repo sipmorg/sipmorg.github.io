@@ -20,14 +20,22 @@ concurrency:
 
 env:
   NODE_VERSION: '20'
+  STANDARDS_PATH: ${{ github.workspace }}/standards
 
 jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout website
         uses: actions/checkout@v4
+
+      - name: Checkout standards repository
+        uses: actions/checkout@v4
+        with:
+          repository: sipmorg/standards
+          path: standards
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -41,8 +49,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build with Vite
+      - name: Build site (includes standards JSON generation)
         run: npm run build
+        env:
+          STANDARDS_PATH: ${{ env.STANDARDS_PATH }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

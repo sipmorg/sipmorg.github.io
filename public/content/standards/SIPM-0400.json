@@ -1,0 +1,303 @@
+{
+  "id": "SIPM-0400",
+  "title": "Clinical Evidence for Phytomedicine",
+  "attributes": {
+    "docnumber": "0400",
+    "partnumber": "1",
+    "edition": "1",
+    "revdate": "2026-02-17",
+    "copyright-year": "2026",
+    "language": "en",
+    "title-intro-en": "SIPM Standards",
+    "title-main-en": "Clinical Evidence for Phytomedicine",
+    "title-part-en": "General requirements",
+    "doctype": "international-standard",
+    "docstage": "60",
+    "docsubstage": "60",
+    "technical-committee": "Clinical Evidence",
+    "library-ics": "11.120.10;03.100.01"
+  },
+  "html": "<div id=\"toc\" class=\"toc\">\n<div id=\"toctitle\">Table of Contents</div>\n<ul class=\"sectlevel1\">\n<li><a href=\"#intro\">1. Introduction</a></li>\n<li><a href=\"#scope\">2. Scope</a></li>\n<li><a href=\"#norm-refs\">Normative references</a></li>\n<li><a href=\"#terms\">3. Terms and definitions</a>\n<ul class=\"sectlevel2\">\n<li><a href=\"#_clinical_evidence\">3.1. clinical evidence</a></li>\n<li><a href=\"#_clinical_trial\">3.2. clinical trial</a></li>\n<li><a href=\"#_randomized_controlled_trial\">3.3. randomized controlled trial</a></li>\n<li><a href=\"#_observational_study\">3.4. observational study</a></li>\n<li><a href=\"#_systematic_review\">3.5. systematic review</a></li>\n<li><a href=\"#_meta_analysis\">3.6. meta-analysis</a></li>\n<li><a href=\"#_traditional_use_evidence\">3.7. traditional use evidence</a></li>\n<li><a href=\"#_well_established_use\">3.8. well-established use</a></li>\n<li><a href=\"#_efficacy\">3.9. efficacy</a></li>\n<li><a href=\"#_effectiveness\">3.10. effectiveness</a></li>\n<li><a href=\"#_safety_profile\">3.11. safety profile</a></li>\n<li><a href=\"#_pharmacovigilance\">3.12. pharmacovigilance</a></li>\n<li><a href=\"#_investigational_product\">3.13. investigational product</a></li>\n</ul>\n</li>\n<li><a href=\"#evidence-hierarchy\">4. Evidence hierarchy</a>\n<ul class=\"sectlevel2\">\n<li><a href=\"#sec-evidence-levels\">4.1. Levels of evidence</a></li>\n<li><a href=\"#sec-evidence-weighting\">4.2. Evidence weighting</a></li>\n<li><a href=\"#sec-traditional-evidence\">4.3. Traditional use evidence</a></li>\n</ul>\n</li>\n<li><a href=\"#study-design\">5. Study design considerations</a>\n<ul class=\"sectlevel2\">\n<li><a href=\"#sec-product-characterization\">5.1. Product characterization</a></li>\n<li><a href=\"#sec-study-population\">5.2. Study population</a></li>\n<li><a href=\"#sec-outcome-measures\">5.3. Outcome measures</a></li>\n<li><a href=\"#sec-control-interventions\">5.4. Control interventions</a></li>\n<li><a href=\"#sec-study-duration\">5.5. Study duration</a></li>\n</ul>\n</li>\n<li><a href=\"#quality-assessment\">6. Quality assessment of clinical studies</a>\n<ul class=\"sectlevel2\">\n<li><a href=\"#sec-quality-criteria\">6.1. Quality criteria</a></li>\n<li><a href=\"#sec-quality-domains\">6.2. Quality domains for RCTs</a></li>\n<li><a href=\"#sec-transparency\">6.3. Transparency requirements</a></li>\n</ul>\n</li>\n<li><a href=\"#reporting\">7. Reporting standards</a>\n<ul class=\"sectlevel2\">\n<li><a href=\"#sec-reporting-guidelines\">7.1. Reporting guidelines</a></li>\n<li><a href=\"#sec-reporting-elements\">7.2. Essential reporting elements</a></li>\n<li><a href=\"#sec-data-sharing\">7.3. Data sharing</a></li>\n</ul>\n</li>\n<li><a href=\"#bib\">Bibliography</a></li>\n</ul>\n</div>\n<div id=\"preamble\">\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<div class=\"title\">Foreword</div>\n<p>The Society for Integrative Phytomedicine (SIPM) is an international organization\ndedicated to the development of standards for phytomedicine, medicinal fungi,\nand related natural health products. The work of preparing SIPM Standards is\ncarried out through technical committees composed of experts from academia,\nindustry, regulatory bodies, and healthcare practice.</p>\n</div>\n<div class=\"paragraph\">\n<p>The procedures used to develop this document and those intended for its further\nmaintenance are described in the SIPM Directives, Part 1. In particular, the\ndifferent approval criteria needed for the different types of SIPM documents\nshould be noted. This document was drafted in accordance with the editorial\nrules of the SIPM Directives, Part 2.</p>\n</div>\n<div class=\"paragraph\">\n<p>SIPM draws attention to the possibility that the implementation of this document\nmay involve the use of intellectual property. SIPM takes no position concerning\nthe evidence, validity or applicability of any claimed intellectual property\nrights in respect thereof. As of the date of publication of this document, SIPM\nhad not received notice of any patents which may be required to implement this\ndocument. However, implementers are cautioned that this may not represent the\nlatest information.</p>\n</div>\n<div class=\"paragraph\">\n<p>Any trade name used in this document is information given for the convenience of\nusers and does not constitute an endorsement.</p>\n</div>\n<div class=\"paragraph\">\n<p>For an explanation of the voluntary nature of standards, the meaning of SIPM\nspecific terms and expressions related to conformity assessment, as well as\ninformation about SIPM&#8217;s adherence to the World Trade Organization (WTO)\nprinciples in the Technical Barriers to Trade (TBT), see <a href=\"https://sipm.org/about\" class=\"bare\">https://sipm.org/about</a>.</p>\n</div>\n<div class=\"paragraph\">\n<p>This document was prepared by Technical Committee TC 5,\n<em>Clinical Evidence</em>.</p>\n</div>\n<div class=\"paragraph\">\n<p>This is the first edition of SIPM 0400.</p>\n</div>\n<div class=\"paragraph\">\n<p>A list of all parts in the SIPM 0400 series can be found on the SIPM\nwebsite.</p>\n</div>\n<div class=\"paragraph\">\n<p>Any feedback or questions on this document should be directed to the SIPM\nSecretariat at <a href=\"mailto:standards@sipm.org\">standards@sipm.org</a>.</p>\n</div>\n</div>\n</div>\n<div class=\"sect1\">\n<h2 id=\"intro\">1. Introduction</h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>The establishment of clinical evidence is fundamental to the responsible use of\nphytomedicine in healthcare. While traditional use provides valuable historical\ncontext, modern evidence-based practice requires rigorous clinical research to\nestablish safety and efficacy.</p>\n</div>\n<div class=\"paragraph\">\n<p>This document provides a framework for the generation, evaluation, and reporting\nof clinical evidence for phytomedicine products. It recognizes the unique\nchallenges of clinical research in phytomedicine, including:</p>\n</div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Complexity of multi-component botanical preparations</p>\n</li>\n<li>\n<p>Variability in product composition between studies</p>\n</li>\n<li>\n<p>Integration of traditional knowledge with modern research methods</p>\n</li>\n<li>\n<p>Ethical considerations in studying traditional remedies</p>\n</li>\n</ul>\n</div>\n<div class=\"paragraph\">\n<p>The standard addresses the complete evidence generation process:</p>\n</div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Classification of evidence types and their relative weight</p>\n</li>\n<li>\n<p>Study design considerations specific to phytomedicine</p>\n</li>\n<li>\n<p>Quality assessment of clinical studies</p>\n</li>\n<li>\n<p>Transparent reporting of methods and results</p>\n</li>\n</ul>\n</div>\n<div class=\"paragraph\">\n<p>This document is intended to support:</p>\n</div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Researchers designing clinical studies of phytomedicines</p>\n</li>\n<li>\n<p>Regulatory bodies evaluating marketing authorization applications</p>\n</li>\n<li>\n<p>Healthcare professionals assessing evidence for clinical practice</p>\n</li>\n<li>\n<p>Manufacturers developing evidence-based products</p>\n</li>\n</ul>\n</div>\n</div>\n</div>\n<div class=\"sect1\">\n<h2 id=\"scope\">2. Scope</h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>This document specifies requirements for the generation, evaluation, and\nreporting of clinical evidence for phytomedicine products.</p>\n</div>\n<div class=\"paragraph\">\n<p>It is applicable to:</p>\n</div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Clinical trials and observational studies of phytomedicines</p>\n</li>\n<li>\n<p>Evidence synthesis and systematic reviews</p>\n</li>\n<li>\n<p>Assessment of traditional use evidence</p>\n</li>\n<li>\n<p>Regulatory submissions and health claims substantiation</p>\n</li>\n</ul>\n</div>\n<div class=\"paragraph\">\n<p>This document covers:</p>\n</div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Herbal medicinal products</p>\n</li>\n<li>\n<p>Medicinal fungi products</p>\n</li>\n<li>\n<p>Traditional herbal preparations</p>\n</li>\n</ul>\n</div>\n<div class=\"paragraph\">\n<p>This document does not cover:</p>\n</div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Preclinical (in vitro and animal) studies</p>\n</li>\n<li>\n<p>Specific disease conditions or products</p>\n</li>\n<li>\n<p>Regulatory requirements for specific jurisdictions</p>\n</li>\n</ul>\n</div>\n</div>\n</div>\n<div class=\"sect1\">\n<h2 id=\"norm-refs\">Normative references</h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>The following documents are referred to in the text in such a way that some or\nall of their content constitutes requirements of this document. For dated\nreferences, only the edition cited applies. For undated references, the latest\nedition of the referenced document (including any amendments) applies.</p>\n</div>\n<div class=\"ulist bibliography\">\n<ul class=\"bibliography\">\n<li>\n<p><a id=\"ICHGCP\"></a>[ICH E6(R2) Good Clinical Practice]</p>\n</li>\n<li>\n<p>[[[CONSORT,CONSORT 2010 Statement: Updated Guidelines for Reporting Parallel\nGroup Randomized Trials]]]</p>\n</li>\n<li>\n<p><a id=\"PRISMA\"></a>[PRISMA Statement for Reporting Systematic Reviews]</p>\n</li>\n<li>\n<p>[[[GRADE,Grading of Recommendations Assessment, Development and Evaluation\n(GRADE) Handbook]]]</p>\n</li>\n<li>\n<p>[[[WHOTM,WHO General Guidelines for Methodologies on Research and Evaluation\nof Traditional Medicine]]]</p>\n</li>\n<li>\n<p>[[[DECLHELSINKI,Declaration of Helsinki: Ethical Principles for Medical\nResearch Involving Human Subjects]]]</p>\n</li>\n</ul>\n</div>\n</div>\n</div>\n<div class=\"sect1\">\n<h2 id=\"terms\">3. Terms and definitions</h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>For the purposes of this document, the following terms and definitions apply.\nTerms defined in SIPM-0001 also apply where relevant.</p>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_clinical_evidence\">3.1. clinical evidence</h3>\n<div class=\"paragraph\">\n<p>information derived from clinical research that contributes to the assessment\nof safety and efficacy of a phytomedicine</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_clinical_trial\">3.2. clinical trial</h3>\n<div class=\"paragraph\">\n<p>alt:[interventional study]</p>\n</div>\n<div class=\"paragraph\">\n<p>research study that prospectively assigns human participants to one or more\ninterventions to evaluate the effects on health outcomes</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_randomized_controlled_trial\">3.3. randomized controlled trial</h3>\n<div class=\"paragraph\">\n<p>alt:[RCT]</p>\n</div>\n<div class=\"paragraph\">\n<p>clinical trial in which participants are allocated to intervention groups by\nchance (randomization)</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_observational_study\">3.4. observational study</h3>\n<div class=\"paragraph\">\n<p>research study in which participants are observed and outcomes measured without\nassignment of interventions by the investigator</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_systematic_review\">3.5. systematic review</h3>\n<div class=\"paragraph\">\n<p>review that uses systematic methods to identify, select, and critically\nappraise relevant research, and to collect and analyze data from included studies</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_meta_analysis\">3.6. meta-analysis</h3>\n<div class=\"paragraph\">\n<p>statistical analysis that combines the results of multiple scientific studies</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_traditional_use_evidence\">3.7. traditional use evidence</h3>\n<div class=\"paragraph\">\n<p>documentation of the historical use of a phytomedicine over one or more\ngenerations within a specific cultural context</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_well_established_use\">3.8. well-established use</h3>\n<div class=\"paragraph\">\n<p>regulatory concept referring to a medicinal product with recognized safety and\nefficacy based on at least 10 years of use in a specific jurisdiction</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_efficacy\">3.9. efficacy</h3>\n<div class=\"paragraph\">\n<p>ability of a phytomedicine to produce a beneficial therapeutic effect under\ncontrolled conditions</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_effectiveness\">3.10. effectiveness</h3>\n<div class=\"paragraph\">\n<p>degree to which a phytomedicine produces a beneficial effect under real-world\nconditions</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_safety_profile\">3.11. safety profile</h3>\n<div class=\"paragraph\">\n<p>comprehensive summary of known and potential adverse effects, contraindications,\nand drug interactions associated with a phytomedicine</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_pharmacovigilance\">3.12. pharmacovigilance</h3>\n<div class=\"paragraph\">\n<p>science and activities relating to the detection, assessment, understanding,\nand prevention of adverse effects or other drug-related problems</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_investigational_product\">3.13. investigational product</h3>\n<div class=\"paragraph\">\n<p>phytomedicine being tested or used as a reference in a clinical trial</p>\n</div>\n<table id=\"table-study-types\" class=\"tableblock frame-all grid-all stretch\">\n<caption class=\"title\">Table 1. Characteristics of common study designs</caption>\n<colgroup>\n<col style=\"width: 25%;\">\n<col style=\"width: 30%;\">\n<col style=\"width: 45%;\">\n</colgroup>\n<thead>\n<tr>\n<th class=\"tableblock halign-left valign-top\">Study type</th>\n<th class=\"tableblock halign-left valign-top\">Key features</th>\n<th class=\"tableblock halign-left valign-top\">Strengths/limitations</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Randomized controlled trial</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Random allocation, control group, blinding</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">High internal validity; may have limited external validity</p></td>\n</tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Non-randomized controlled trial</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Control group without randomization</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Practical for some settings; potential for confounding</p></td>\n</tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Cohort study</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Follows groups over time</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Good for rare exposures; potential for confounding</p></td>\n</tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Case-control study</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Compares cases with controls</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Good for rare outcomes; recall bias</p></td>\n</tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Case series</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Description of multiple cases</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Hypothesis generation; no control group</p></td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n</div>\n<div class=\"sect1\">\n<h2 id=\"evidence-hierarchy\">4. Evidence hierarchy</h2>\n<div class=\"sectionbody\">\n<div class=\"sect2\">\n<h3 id=\"sec-evidence-levels\">4.1. Levels of evidence</h3>\n<div class=\"paragraph\">\n<p>Evidence for phytomedicine safety and efficacy shall be classified according\nto a hierarchical system that reflects the relative strength of different\nevidence types.</p>\n</div>\n<table id=\"table-evidence-levels\" class=\"tableblock frame-all grid-all stretch\">\n<caption class=\"title\">Table 2. Evidence hierarchy for phytomedicine</caption>\n<colgroup>\n<col style=\"width: 15%;\">\n<col style=\"width: 25%;\">\n<col style=\"width: 60%;\">\n</colgroup>\n<thead>\n<tr>\n<th class=\"tableblock halign-left valign-top\">Level</th>\n<th class=\"tableblock halign-left valign-top\">Evidence type</th>\n<th class=\"tableblock halign-left valign-top\">Description</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Level I</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Systematic reviews of RCTs</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Meta-analyses and systematic reviews of randomized controlled trials</p></td>\n</tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Level II</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Randomized controlled trials</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Well-designed randomized controlled trials with adequate sample size</p></td>\n</tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Level III</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Non-randomized controlled studies</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Controlled studies without randomization, cohort studies</p></td>\n</tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Level IV</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Case series and case reports</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Uncontrolled studies, case series, case reports</p></td>\n</tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Level V</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Traditional use evidence</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Documented historical use, ethnobotanical records, traditional knowledge</p></td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"sect2\">\n<h3 id=\"sec-evidence-weighting\">4.2. Evidence weighting</h3>\n<div class=\"paragraph\">\n<p>When evaluating the totality of evidence, the following factors shall be\nconsidered:</p>\n</div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Study design (higher levels provide stronger evidence)</p>\n</li>\n<li>\n<p>Methodological quality of individual studies</p>\n</li>\n<li>\n<p>Consistency of findings across studies</p>\n</li>\n<li>\n<p>Directness of evidence to the population and intervention of interest</p>\n</li>\n<li>\n<p>Precision of effect estimates</p>\n</li>\n</ul>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"sec-traditional-evidence\">4.3. Traditional use evidence</h3>\n<div class=\"paragraph\">\n<p>Traditional use evidence may be considered as supporting evidence when:</p>\n</div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>The phytomedicine has been used for a defined period (typically 30+ years)</p>\n</li>\n<li>\n<p>The conditions of use (dose, route, population) are documented</p>\n</li>\n<li>\n<p>Safety information is available from traditional use</p>\n</li>\n<li>\n<p>The traditional preparation method is relevant to the modern product</p>\n</li>\n</ul>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nTraditional use evidence alone is generally insufficient to support\nefficacy claims in most regulatory jurisdictions, but may support safety\nand guide clinical research design.\n</td>\n</tr>\n</table>\n</div>\n</div>\n</div>\n</div>\n<div class=\"sect1\">\n<h2 id=\"study-design\">5. Study design considerations</h2>\n<div class=\"sectionbody\">\n<div class=\"sect2\">\n<h3 id=\"sec-product-characterization\">5.1. Product characterization</h3>\n<div class=\"sect3\">\n<h4 id=\"_identity_and_quality\">5.1.1. Identity and quality</h4>\n<div class=\"paragraph\">\n<p>The investigational phytomedicine product shall be fully characterized,\nincluding:</p>\n</div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Botanical identity (species, plant part, geographic origin)</p>\n</li>\n<li>\n<p>Manufacturing process and quality control</p>\n</li>\n<li>\n<p>Phytochemical profile (marker compounds, batch-to-batch consistency)</p>\n</li>\n<li>\n<p>Specifications and certificate of analysis</p>\n</li>\n</ul>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nPoor product characterization is a common limitation of published\nphytomedicine clinical studies.\n</td>\n</tr>\n</table>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_standardization\">5.1.2. Standardization</h4>\n<div class=\"paragraph\">\n<p>When applicable, the study product shall be standardized to defined marker\ncompounds or active constituents.</p>\n</div>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"sec-study-population\">5.2. Study population</h3>\n<div class=\"sect3\">\n<h4 id=\"_participant_selection\">5.2.1. Participant selection</h4>\n<div class=\"paragraph\">\n<p>The study population shall be defined by:</p>\n</div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Inclusion criteria appropriate to the research question</p>\n</li>\n<li>\n<p>Exclusion criteria that address safety concerns</p>\n</li>\n<li>\n<p>Relevant demographic and clinical characteristics</p>\n</li>\n</ul>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_sample_size\">5.2.2. Sample size</h4>\n<div class=\"paragraph\">\n<p>Sample size calculations shall be performed and documented, based on:</p>\n</div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Expected effect size</p>\n</li>\n<li>\n<p>Variability in primary outcome measures</p>\n</li>\n<li>\n<p>Statistical power requirements</p>\n</li>\n<li>\n<p>Significance level</p>\n</li>\n</ul>\n</div>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"sec-outcome-measures\">5.3. Outcome measures</h3>\n<div class=\"sect3\">\n<h4 id=\"_primary_outcomes\">5.3.1. Primary outcomes</h4>\n<div class=\"paragraph\">\n<p>Primary outcomes shall:</p>\n</div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Be clinically relevant to the indication</p>\n</li>\n<li>\n<p>Be valid, reliable, and responsive to change</p>\n</li>\n<li>\n<p>Be specified a priori in the study protocol</p>\n</li>\n</ul>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_secondary_outcomes\">5.3.2. Secondary outcomes</h4>\n<div class=\"paragraph\">\n<p>Secondary outcomes may include:</p>\n</div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Additional clinical measures</p>\n</li>\n<li>\n<p>Quality of life assessments</p>\n</li>\n<li>\n<p>Biomarkers</p>\n</li>\n<li>\n<p>Safety outcomes</p>\n</li>\n</ul>\n</div>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"sec-control-interventions\">5.4. Control interventions</h3>\n<div class=\"paragraph\">\n<p>Control interventions may include:</p>\n</div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Placebo (when ethically appropriate)</p>\n</li>\n<li>\n<p>Active comparator (standard treatment)</p>\n</li>\n<li>\n<p>No treatment (for pragmatic trials)</p>\n</li>\n<li>\n<p>Dose comparison</p>\n</li>\n</ul>\n</div>\n<div class=\"paragraph\">\n<p>Placebo control shall match the investigational product in appearance, taste,\nand smell where possible.</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"sec-study-duration\">5.5. Study duration</h3>\n<div class=\"paragraph\">\n<p>Study duration shall be:</p>\n</div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Appropriate to the indication and expected time to effect</p>\n</li>\n<li>\n<p>Sufficient to detect both efficacy and safety signals</p>\n</li>\n<li>\n<p>Justified in the study protocol</p>\n</li>\n</ul>\n</div>\n<div class=\"paragraph\">\n<p>For chronic conditions, long-term safety data (6+ months) is typically required.</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"sect1\">\n<h2 id=\"quality-assessment\">6. Quality assessment of clinical studies</h2>\n<div class=\"sectionbody\">\n<div class=\"sect2\">\n<h3 id=\"sec-quality-criteria\">6.1. Quality criteria</h3>\n<div class=\"paragraph\">\n<p>The methodological quality of clinical studies shall be assessed using\nvalidated assessment tools appropriate to the study design.</p>\n</div>\n<table id=\"table-quality-tools\" class=\"tableblock frame-all grid-all stretch\">\n<caption class=\"title\">Table 3. Quality assessment tools by study design</caption>\n<colgroup>\n<col style=\"width: 40%;\">\n<col style=\"width: 60%;\">\n</colgroup>\n<thead>\n<tr>\n<th class=\"tableblock halign-left valign-top\">Study design</th>\n<th class=\"tableblock halign-left valign-top\">Assessment tool</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Randomized controlled trials</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Cochrane Risk of Bias tool, Jadad scale</p></td>\n</tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Non-randomized studies</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Newcastle-Ottawa Scale, ROBINS-I</p></td>\n</tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Systematic reviews</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">AMSTAR 2, ROBIS</p></td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"sect2\">\n<h3 id=\"sec-quality-domains\">6.2. Quality domains for RCTs</h3>\n<div class=\"paragraph\">\n<p>Quality assessment of randomized controlled trials shall address:</p>\n</div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Random sequence generation</p>\n</li>\n<li>\n<p>Allocation concealment</p>\n</li>\n<li>\n<p>Blinding of participants and personnel</p>\n</li>\n<li>\n<p>Blinding of outcome assessment</p>\n</li>\n<li>\n<p>Incomplete outcome data</p>\n</li>\n<li>\n<p>Selective reporting</p>\n</li>\n<li>\n<p>Other sources of bias</p>\n</li>\n</ul>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"sec-transparency\">6.3. Transparency requirements</h3>\n<div class=\"paragraph\">\n<p>To support quality assessment, clinical studies shall be:</p>\n</div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Registered in a public trials registry before enrollment</p>\n</li>\n<li>\n<p>Conducted in accordance with Good Clinical Practice (GCP)</p>\n</li>\n<li>\n<p>Reported completely and transparently</p>\n</li>\n<li>\n<p>Made available through open access when possible</p>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n<div class=\"sect1\">\n<h2 id=\"reporting\">7. Reporting standards</h2>\n<div class=\"sectionbody\">\n<div class=\"sect2\">\n<h3 id=\"sec-reporting-guidelines\">7.1. Reporting guidelines</h3>\n<div class=\"paragraph\">\n<p>Clinical studies of phytomedicines shall be reported in accordance with\nrecognized reporting guidelines:</p>\n</div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>CONSORT for randomized controlled trials</p>\n</li>\n<li>\n<p>STROBE for observational studies</p>\n</li>\n<li>\n<p>PRISMA for systematic reviews</p>\n</li>\n<li>\n<p>TREND for non-randomized evaluations</p>\n</li>\n</ul>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"sec-reporting-elements\">7.2. Essential reporting elements</h3>\n<div class=\"paragraph\">\n<p>Reports of phytomedicine clinical studies shall include:</p>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_product_information\">7.2.1. Product information</h4>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Complete botanical identification (species, authority, plant part)</p>\n</li>\n<li>\n<p>Extract type and method of preparation</p>\n</li>\n<li>\n<p>Drug-to-extract ratio (for extracts)</p>\n</li>\n<li>\n<p>Standardization information (marker compounds and levels)</p>\n</li>\n<li>\n<p>Dose and dosing regimen</p>\n</li>\n<li>\n<p>Manufacturer and batch numbers</p>\n</li>\n</ul>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_study_methods\">7.2.2. Study methods</h4>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Study design and justification</p>\n</li>\n<li>\n<p>Participant eligibility criteria</p>\n</li>\n<li>\n<p>Interventions for each group</p>\n</li>\n<li>\n<p>Outcome measures and timing</p>\n</li>\n<li>\n<p>Sample size calculation</p>\n</li>\n<li>\n<p>Randomization and blinding methods</p>\n</li>\n<li>\n<p>Statistical methods</p>\n</li>\n</ul>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_results\">7.2.3. Results</h4>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Participant flow (recruitment, allocation, follow-up, analysis)</p>\n</li>\n<li>\n<p>Baseline characteristics</p>\n</li>\n<li>\n<p>Results for primary and secondary outcomes</p>\n</li>\n<li>\n<p>Harms and adverse events</p>\n</li>\n<li>\n<p>Limitations</p>\n</li>\n</ul>\n</div>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"sec-data-sharing\">7.3. Data sharing</h3>\n<div class=\"paragraph\">\n<p>To support evidence synthesis and transparency:</p>\n</div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Individual participant data should be made available where possible</p>\n</li>\n<li>\n<p>Study protocols and statistical analysis plans should be published</p>\n</li>\n<li>\n<p>Negative and inconclusive results should be reported</p>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n<div class=\"sect1\">\n<h2 id=\"bib\">Bibliography</h2>\n<div class=\"sectionbody\">\n<div class=\"ulist bibliography\">\n<ul class=\"bibliography\">\n<li>\n<p>[<a id=\"CONSORT2010\"></a>, CONSORT 2010 Statement: Updated guidelines for\nreporting parallel group randomized trials. <em>BMJ</em> 2010, <strong>340</strong>, c332</p>\n</li>\n<li>\n<p>[<a id=\"GRADEhandbook\"></a>, <em>GRADE Handbook</em>. Cochrane, 2013</p>\n</li>\n<li>\n<p>[[[FWHO2000,WHO General Guidelines for Methodologies on Research and\nEvaluation of Traditional Medicine]]], World Health Organization, Geneva, 2000</p>\n</li>\n<li>\n<p>[[[EichEich D.#]], Clinical trials in phytomedicine: Challenges and\nopportunities. <em>Phytomedicine</em> 2015, <strong>22</strong> (12) pp. 1061-1065</p>\n</li>\n<li>\n<p>[[[GagnierGagnier J.J.#]], Improving the quality of reporting of randomized\ncontrolled trials in phytomedicine. <em>Phytomedicine</em> 2006, <strong>13</strong> (4) pp. 274-282</p>\n</li>\n</ul>\n</div>\n</div>\n</div>",
+  "toc": [
+    {
+      "id": "intro",
+      "title": "Introduction",
+      "level": 1,
+      "children": []
+    },
+    {
+      "id": "scope",
+      "title": "Scope",
+      "level": 1,
+      "children": []
+    },
+    {
+      "id": "norm-refs",
+      "title": "Normative references",
+      "level": 1,
+      "children": []
+    },
+    {
+      "id": "terms",
+      "title": "Terms and definitions",
+      "level": 1,
+      "children": [
+        {
+          "id": "_clinical_evidence",
+          "title": "clinical evidence",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_clinical_trial",
+          "title": "clinical trial",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_randomized_controlled_trial",
+          "title": "randomized controlled trial",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_observational_study",
+          "title": "observational study",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_systematic_review",
+          "title": "systematic review",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_meta_analysis",
+          "title": "meta-analysis",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_traditional_use_evidence",
+          "title": "traditional use evidence",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_well_established_use",
+          "title": "well-established use",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_efficacy",
+          "title": "efficacy",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_effectiveness",
+          "title": "effectiveness",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_safety_profile",
+          "title": "safety profile",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_pharmacovigilance",
+          "title": "pharmacovigilance",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_investigational_product",
+          "title": "investigational product",
+          "level": 2,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "evidence-hierarchy",
+      "title": "Evidence hierarchy",
+      "level": 1,
+      "children": [
+        {
+          "id": "sec-evidence-levels",
+          "title": "Levels of evidence",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "sec-evidence-weighting",
+          "title": "Evidence weighting",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "sec-traditional-evidence",
+          "title": "Traditional use evidence",
+          "level": 2,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "study-design",
+      "title": "Study design considerations",
+      "level": 1,
+      "children": [
+        {
+          "id": "sec-product-characterization",
+          "title": "Product characterization",
+          "level": 2,
+          "children": [
+            {
+              "id": "_identity_and_quality",
+              "title": "Identity and quality",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_standardization",
+              "title": "Standardization",
+              "level": 3,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "sec-study-population",
+          "title": "Study population",
+          "level": 2,
+          "children": [
+            {
+              "id": "_participant_selection",
+              "title": "Participant selection",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_sample_size",
+              "title": "Sample size",
+              "level": 3,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "sec-outcome-measures",
+          "title": "Outcome measures",
+          "level": 2,
+          "children": [
+            {
+              "id": "_primary_outcomes",
+              "title": "Primary outcomes",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_secondary_outcomes",
+              "title": "Secondary outcomes",
+              "level": 3,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "sec-control-interventions",
+          "title": "Control interventions",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "sec-study-duration",
+          "title": "Study duration",
+          "level": 2,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "quality-assessment",
+      "title": "Quality assessment of clinical studies",
+      "level": 1,
+      "children": [
+        {
+          "id": "sec-quality-criteria",
+          "title": "Quality criteria",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "sec-quality-domains",
+          "title": "Quality domains for RCTs",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "sec-transparency",
+          "title": "Transparency requirements",
+          "level": 2,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "reporting",
+      "title": "Reporting standards",
+      "level": 1,
+      "children": [
+        {
+          "id": "sec-reporting-guidelines",
+          "title": "Reporting guidelines",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "sec-reporting-elements",
+          "title": "Essential reporting elements",
+          "level": 2,
+          "children": [
+            {
+              "id": "_product_information",
+              "title": "Product information",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_study_methods",
+              "title": "Study methods",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_results",
+              "title": "Results",
+              "level": 3,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "sec-data-sharing",
+          "title": "Data sharing",
+          "level": 2,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "bib",
+      "title": "Bibliography",
+      "level": 1,
+      "children": []
+    }
+  ],
+  "raw": "= Clinical Evidence for Phytomedicine\n:docnumber: 0400\n:partnumber: 1\n:edition: 1\n:revdate: 2026-02-17\n:copyright-year: 2026\n:language: en\n:title-intro-en: SIPM Standards\n:title-main-en: Clinical Evidence for Phytomedicine\n:title-part-en: General requirements\n:doctype: international-standard\n:docstage: 60\n:docsubstage: 60\n:technical-committee-number: 5\n:technical-committee: Clinical Evidence\n:library-ics: 11.120.10;03.100.01\n:mn-document-class: iso\n:mn-output-extensions: xml,html,doc,pdf\n\ninclude::sections/00-foreword.adoc[]\n\ninclude::sections/00-introduction.adoc[]\n\ninclude::sections/01-scope.adoc[]\n\ninclude::sections/02-normref.adoc[]\n\ninclude::sections/03-terms.adoc[]\n\ninclude::sections/04-evidence-hierarchy.adoc[]\n\ninclude::sections/05-study-design.adoc[]\n\ninclude::sections/06-quality-assessment.adoc[]\n\ninclude::sections/07-reporting.adoc[]\n\ninclude::sections/b0-bibliography.adoc[]\n"
+}
