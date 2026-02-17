@@ -80,33 +80,11 @@ export const routes = [
     ]
   },
 
-  // Individual standard pages (new StandardView for AsciiDoc rendering)
+  // Individual standard pages (AsciiDoc rendering)
   {
     path: '/standards/:category/:id',
     name: 'standard-view',
     component: () => import('@/views/standards/StandardView.vue')
-  },
-
-  // Legacy standard detail pages (redirect or show placeholder)
-  {
-    path: '/standards/foundation/:slug',
-    name: 'standard-foundation',
-    component: () => import('@/views/standards/StandardDetailView.vue')
-  },
-  {
-    path: '/standards/quality/:slug',
-    name: 'standard-quality',
-    component: () => import('@/views/standards/StandardDetailView.vue')
-  },
-  {
-    path: '/standards/science/:slug',
-    name: 'standard-science',
-    component: () => import('@/views/standards/StandardDetailView.vue')
-  },
-  {
-    path: '/standards/governance/:slug',
-    name: 'standard-governance',
-    component: () => import('@/views/standards/StandardDetailView.vue')
   },
 
   // News section

@@ -5,7 +5,7 @@
  */
 
 import { useHead } from '@unhead/vue'
-import { computed } from 'vue'
+import { computed, unref } from 'vue'
 
 const defaultConfig = {
   siteName: 'SIPM - International Society of Phytomedicine',
@@ -28,18 +28,21 @@ export function useSeo(options) {
   } = options
 
   const fullTitle = computed(() => {
-    if (!title) return defaultConfig.siteName
-    return `${title} | SIPM`
+    const titleValue = unref(title)
+    if (!titleValue) return defaultConfig.siteName
+    return `${titleValue} | SIPM`
   })
 
   const fullImage = computed(() => {
-    if (!image) return defaultConfig.defaultImage
-    return image.startsWith('http') ? image : `${defaultConfig.siteUrl}${image}`
+    const imageValue = unref(image)
+    if (!imageValue) return defaultConfig.defaultImage
+    return imageValue.startsWith('http') ? imageValue : `${defaultConfig.siteUrl}${imageValue}`
   })
 
   const fullUrl = computed(() => {
-    if (!url) return defaultConfig.siteUrl
-    return url.startsWith('http') ? url : `${defaultConfig.siteUrl}${url}`
+    const urlValue = unref(url)
+    if (!urlValue) return defaultConfig.siteUrl
+    return urlValue.startsWith('http') ? urlValue : `${defaultConfig.siteUrl}${urlValue}`
   })
 
   useHead({
