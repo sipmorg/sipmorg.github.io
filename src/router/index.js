@@ -80,7 +80,14 @@ export const routes = [
     ]
   },
 
-  // Individual standard pages
+  // Individual standard pages (new StandardView for AsciiDoc rendering)
+  {
+    path: '/standards/:category/:id',
+    name: 'standard-view',
+    component: () => import('@/views/standards/StandardView.vue')
+  },
+
+  // Legacy standard detail pages (redirect or show placeholder)
   {
     path: '/standards/foundation/:slug',
     name: 'standard-foundation',
@@ -141,6 +148,18 @@ export const routes = [
         component: () => import('@/views/members/DirectoryView.vue')
       }
     ]
+  },
+
+  // Legal pages
+  {
+    path: '/privacy',
+    name: 'privacy',
+    component: () => import('@/views/PrivacyView.vue')
+  },
+  {
+    path: '/terms',
+    name: 'terms',
+    component: () => import('@/views/TermsView.vue')
   },
 
   // 404 - must be last

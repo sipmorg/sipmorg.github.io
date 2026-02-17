@@ -1,0 +1,279 @@
+{
+  "id": "SIPM-0002",
+  "title": "Medicinal Fungi Taxonomy",
+  "attributes": {
+    "docnumber": "0002",
+    "partnumber": "1",
+    "edition": "1",
+    "revdate": "2026-02-17",
+    "copyright-year": "2026",
+    "language": "en",
+    "title-intro-en": "SIPM Standards",
+    "title-main-en": "Medicinal Fungi Taxonomy and Nomenclature",
+    "title-part-en": "General requirements",
+    "doctype": "international-standard",
+    "docstage": "60",
+    "docsubstage": "60",
+    "technical-committee": "Fungi and Lichens",
+    "library-ics": "07.100.20;11.120"
+  },
+  "html": "<div id=\"toc\" class=\"toc\">\n<div id=\"toctitle\">Table of Contents</div>\n<ul class=\"sectlevel1\">\n<li><a href=\"#intro\">1. Introduction</a></li>\n<li><a href=\"#scope\">2. Scope</a></li>\n<li><a href=\"#norm-refs\">Normative references</a></li>\n<li><a href=\"#terms\">3. Terms and definitions</a>\n<ul class=\"sectlevel2\">\n<li><a href=\"#_medicinal_fungus\">3.1. medicinal fungus</a></li>\n<li><a href=\"#_basidiomycete\">3.2. basidiomycete</a></li>\n<li><a href=\"#_ascomycete\">3.3. ascomycete</a></li>\n<li><a href=\"#_fruiting_body\">3.4. fruiting body</a></li>\n<li><a href=\"#_mycelium\">3.5. mycelium</a></li>\n<li><a href=\"#_sclerotium\">3.6. sclerotium</a></li>\n<li><a href=\"#_spore\">3.7. spore</a></li>\n<li><a href=\"#_anamorph\">3.8. anamorph</a></li>\n<li><a href=\"#_teleomorph\">3.9. teleomorph</a></li>\n<li><a href=\"#_holomorph\">3.10. holomorph</a></li>\n<li><a href=\"#_species_complex\">3.11. species complex</a></li>\n<li><a href=\"#_strain\">3.12. strain</a></li>\n</ul>\n</li>\n<li><a href=\"#taxonomy\">4. Taxonomic classification</a>\n<ul class=\"sectlevel2\">\n<li><a href=\"#_general_requirements\">4.1. General requirements</a></li>\n<li><a href=\"#_taxonomic_hierarchy\">4.2. Taxonomic hierarchy</a></li>\n<li><a href=\"#_scientific_names\">4.3. Scientific names</a></li>\n<li><a href=\"#_synonyms_and_deprecated_names\">4.4. Synonyms and deprecated names</a></li>\n</ul>\n</li>\n<li><a href=\"#nomenclature\">5. Nomenclature standards</a>\n<ul class=\"sectlevel2\">\n<li><a href=\"#_general_requirements_2\">5.1. General requirements</a></li>\n<li><a href=\"#_documentation_requirements\">5.2. Documentation requirements</a></li>\n<li><a href=\"#_product_labeling\">5.3. Product labeling</a></li>\n<li><a href=\"#_quality_control_documentation\">5.4. Quality control documentation</a></li>\n<li><a href=\"#_species_specific_requirements\">5.5. Species-specific requirements</a></li>\n</ul>\n</li>\n<li><a href=\"#bib\">Bibliography</a></li>\n</ul>\n</div>\n<div id=\"preamble\">\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<div class=\"title\">Foreword</div>\n<p>The Society for Integrative Phytomedicine (SIPM) is an international organization\ndedicated to the development of standards for phytomedicine, medicinal fungi,\nand related natural health products. The work of preparing SIPM Standards is\ncarried out through technical committees composed of experts from academia,\nindustry, regulatory bodies, and healthcare practice.</p>\n</div>\n<div class=\"paragraph\">\n<p>The procedures used to develop this document and those intended for its further\nmaintenance are described in the SIPM Directives, Part 1. In particular, the\ndifferent approval criteria needed for the different types of SIPM documents\nshould be noted. This document was drafted in accordance with the editorial\nrules of the SIPM Directives, Part 2.</p>\n</div>\n<div class=\"paragraph\">\n<p>SIPM draws attention to the possibility that the implementation of this document\nmay involve the use of intellectual property. SIPM takes no position concerning\nthe evidence, validity or applicability of any claimed intellectual property\nrights in respect thereof. As of the date of publication of this document, SIPM\nhad not received notice of any patents which may be required to implement this\ndocument. However, implementers are cautioned that this may not represent the\nlatest information.</p>\n</div>\n<div class=\"paragraph\">\n<p>Any trade name used in this document is information given for the convenience of\nusers and does not constitute an endorsement.</p>\n</div>\n<div class=\"paragraph\">\n<p>For an explanation of the voluntary nature of standards, the meaning of SIPM\nspecific terms and expressions related to conformity assessment, as well as\ninformation about SIPM&#8217;s adherence to the World Trade Organization (WTO)\nprinciples in the Technical Barriers to Trade (TBT), see <a href=\"https://sipm.org/about\" class=\"bare\">https://sipm.org/about</a>.</p>\n</div>\n<div class=\"paragraph\">\n<p>This document was prepared by Technical Committee TC 2,\n<em>Fungi and Lichens</em>.</p>\n</div>\n<div class=\"paragraph\">\n<p>This is the first edition of SIPM 0002.</p>\n</div>\n<div class=\"paragraph\">\n<p>A list of all parts in the SIPM 0002 series can be found on the SIPM\nwebsite.</p>\n</div>\n<div class=\"paragraph\">\n<p>Any feedback or questions on this document should be directed to the SIPM\nSecretariat at <a href=\"mailto:standards@sipm.org\">standards@sipm.org</a>.</p>\n</div>\n</div>\n</div>\n<div class=\"sect1\">\n<h2 id=\"intro\">1. Introduction</h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>Medicinal fungi have been used for therapeutic purposes across cultures for\nmillennia. In recent decades, scientific research has validated many traditional\nuses and identified bioactive compounds with significant pharmacological\nproperties. As the medicinal fungi industry grows, accurate taxonomy and\nstandardized nomenclature become essential for quality control, safety, and\nregulatory compliance.</p>\n</div>\n<div class=\"paragraph\">\n<p>This document establishes standards for the taxonomic classification and\nnomenclature of medicinal fungi used in phytomedicine and natural health\nproducts. It addresses the unique challenges of fungal taxonomy, including\nthe distinction between anamorph and teleomorph states, the complexity of\nfungal species complexes, and the need for consistent naming across scientific,\ncommercial, and regulatory contexts.</p>\n</div>\n<div class=\"paragraph\">\n<p>The standards presented here are designed to:</p>\n</div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Ensure accurate identification of medicinal fungi species</p>\n</li>\n<li>\n<p>Promote consistent nomenclature in scientific and commercial contexts</p>\n</li>\n<li>\n<p>Facilitate communication between researchers, manufacturers, and regulators</p>\n</li>\n<li>\n<p>Support quality control and traceability throughout the supply chain</p>\n</li>\n<li>\n<p>Contribute to the conservation of medicinal fungi biodiversity</p>\n</li>\n</ul>\n</div>\n<div class=\"paragraph\">\n<p>This document is intended to be used in conjunction with SIPM-0001 (Terminology\nfor Phytomedicine) and relevant analytical standards in the SIPM-0300 series.</p>\n</div>\n</div>\n</div>\n<div class=\"sect1\">\n<h2 id=\"scope\">2. Scope</h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>This document specifies requirements for the taxonomic classification and\nnomenclature of medicinal fungi used in phytomedicine and natural health\nproducts.</p>\n</div>\n<div class=\"paragraph\">\n<p>It is applicable to:</p>\n</div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Scientific research and publication involving medicinal fungi</p>\n</li>\n<li>\n<p>Cultivation, collection, and trade of medicinal fungi raw materials</p>\n</li>\n<li>\n<p>Manufacturing and quality control of medicinal fungi products</p>\n</li>\n<li>\n<p>Regulatory submissions and compliance</p>\n</li>\n<li>\n<p>Education and training in mycology and phytomedicine</p>\n</li>\n</ul>\n</div>\n<div class=\"paragraph\">\n<p>This document covers:</p>\n</div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Basidiomycetes (mushrooms, bracket fungi)</p>\n</li>\n<li>\n<p>Ascomycetes (morels, truffles, Cordyceps)</p>\n</li>\n<li>\n<p>Other fungi used for therapeutic purposes</p>\n</li>\n</ul>\n</div>\n<div class=\"paragraph\">\n<p>This document does not cover:</p>\n</div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Detailed cultivation methods (addressed in SIPM-0200 series)</p>\n</li>\n<li>\n<p>Specific analytical methods (addressed in SIPM-0300 series)</p>\n</li>\n<li>\n<p>Clinical protocols (addressed in SIPM-0400 series)</p>\n</li>\n</ul>\n</div>\n</div>\n</div>\n<div class=\"sect1\">\n<h2 id=\"norm-refs\">Normative references</h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>The following documents are referred to in the text in such a way that some or\nall of their content constitutes requirements of this document. For dated\nreferences, only the edition cited applies. For undated references, the latest\nedition of the referenced document (including any amendments) applies.</p>\n</div>\n<div class=\"ulist bibliography\">\n<ul class=\"bibliography\">\n<li>\n<p><a id=\"ICN\"></a>[International Code of Nomenclature for algae, fungi, and plants (Shenzhen Code)]</p>\n</li>\n<li>\n<p><a id=\"ICNP\"></a>[International Code of Nomenclature of Prokaryotes]</p>\n</li>\n<li>\n<p><a id=\"IndexFungorum\"></a>[Index Fungorum Database]</p>\n</li>\n<li>\n<p><a id=\"MycoBank\"></a>[MycoBank Fungal Database]</p>\n</li>\n<li>\n<p><a id=\"WHOQCM\"></a>[WHO Quality Control Methods for Medicinal Plant Materials]</p>\n</li>\n<li>\n<p><a id=\"EP10th\"></a>[European Pharmacopoeia 10th Edition]</p>\n</li>\n<li>\n<p><a id=\"USPNF\"></a>[United States Pharmacopeia - National Formulary]</p>\n</li>\n</ul>\n</div>\n</div>\n</div>\n<div class=\"sect1\">\n<h2 id=\"terms\">3. Terms and definitions</h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>For the purposes of this document, the following terms and definitions apply.\nTerms defined in SIPM-0001 also apply where relevant.</p>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_medicinal_fungus\">3.1. medicinal fungus</h3>\n<div class=\"paragraph\">\n<p>alt:[medicinal mushroom]</p>\n</div>\n<div class=\"paragraph\">\n<p>fungal species that contains substances which can be used for therapeutic\npurposes or which are precursors for the synthesis of useful drugs</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_basidiomycete\">3.2. basidiomycete</h3>\n<div class=\"paragraph\">\n<p>member of the phylum Basidiomycota, characterized by the production of\nspores on a basidium</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nCommon medicinal basidiomycetes include Reishi (Ganoderma lucidum),\nShiitake (Lentinula edodes), and Turkey Tail (Trametes versicolor).\n</td>\n</tr>\n</table>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_ascomycete\">3.3. ascomycete</h3>\n<div class=\"paragraph\">\n<p>member of the phylum Ascomycota, characterized by the production of spores\nin an ascus</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nCommon medicinal ascomycetes include Cordyceps (Cordyceps sinensis),\nMorel (Morchella spp.), and Chaga (Inonotus obliquus).\n</td>\n</tr>\n</table>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_fruiting_body\">3.4. fruiting body</h3>\n<div class=\"paragraph\">\n<p>alt:[sporocarp]\nalt:[mushroom]</p>\n</div>\n<div class=\"paragraph\">\n<p>reproductive structure of a fungus that produces and disperses spores</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_mycelium\">3.5. mycelium</h3>\n<div class=\"paragraph\">\n<p>vegetative part of a fungus, consisting of a network of fine white filaments\n(hyphae)</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_sclerotium\">3.6. sclerotium</h3>\n<div class=\"paragraph\">\n<p>compact mass of hardened fungal mycelium containing food reserves, capable of\nremaining dormant for extended periods</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nThe sclerotium of Poria cocos (Fu Ling) is used medicinally.\n</td>\n</tr>\n</table>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_spore\">3.7. spore</h3>\n<div class=\"paragraph\">\n<p>reproductive unit of a fungus, capable of developing into a new organism</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_anamorph\">3.8. anamorph</h3>\n<div class=\"paragraph\">\n<p>asexual reproductive state of a fungus</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nSome medicinal fungi are primarily known by their anamorph names.\n</td>\n</tr>\n</table>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_teleomorph\">3.9. teleomorph</h3>\n<div class=\"paragraph\">\n<p>sexual reproductive state of a fungus</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_holomorph\">3.10. holomorph</h3>\n<div class=\"paragraph\">\n<p>complete fungus including both anamorph and teleomorph states</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_species_complex\">3.11. species complex</h3>\n<div class=\"paragraph\">\n<p>group of closely related species that are difficult to distinguish morphologically</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nSpecies complexes are common in medicinal fungi and may have different\nbioactive profiles.\n</td>\n</tr>\n</table>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_strain\">3.12. strain</h3>\n<div class=\"paragraph\">\n<p>genetically distinct isolate or subpopulation within a fungal species</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nDifferent strains of the same species may vary in their production of\nbioactive compounds.\n</td>\n</tr>\n</table>\n</div>\n</div>\n</div>\n</div>\n<div class=\"sect1\">\n<h2 id=\"taxonomy\">4. Taxonomic classification</h2>\n<div class=\"sectionbody\">\n<div class=\"sect2\">\n<h3 id=\"_general_requirements\">4.1. General requirements</h3>\n<div class=\"paragraph\">\n<p>The taxonomic classification of medicinal fungi shall follow the International\nCode of Nomenclature for algae, fungi, and plants (ICN).</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_taxonomic_hierarchy\">4.2. Taxonomic hierarchy</h3>\n<div class=\"paragraph\">\n<p>Medicinal fungi shall be classified according to the following taxonomic\nhierarchy:</p>\n</div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Kingdom</p>\n</li>\n<li>\n<p>Phylum</p>\n</li>\n<li>\n<p>Class</p>\n</li>\n<li>\n<p>Order</p>\n</li>\n<li>\n<p>Family</p>\n</li>\n<li>\n<p>Genus</p>\n</li>\n<li>\n<p>Species</p>\n</li>\n</ul>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_scientific_names\">4.3. Scientific names</h3>\n<div class=\"sect3\">\n<h4 id=\"_latin_binomial\">4.3.1. Latin binomial</h4>\n<div class=\"paragraph\">\n<p>The scientific name of a medicinal fungus shall be expressed as a Latin\nbinomial consisting of genus name (capitalized) and species epithet\n(lowercase).</p>\n</div>\n<div class=\"exampleblock\">\n<div class=\"content\">\nGanoderma lucidum, Cordyceps sinensis, Lentinula edodes\n</div>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_author_citation\">4.3.2. Author citation</h4>\n<div class=\"paragraph\">\n<p>When first mention of a species is made in a document, the author citation\nshall be included.</p>\n</div>\n<div class=\"exampleblock\">\n<div class=\"content\">\nGanoderma lucidum (Curtis) P. Karst.\n</div>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_taxonomic_authorities\">4.3.3. Taxonomic authorities</h4>\n<div class=\"paragraph\">\n<p>Taxonomic nomenclature shall be verified against recognized databases:</p>\n</div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Index Fungorum</p>\n</li>\n<li>\n<p>MycoBank</p>\n</li>\n<li>\n<p>GBIF (Global Biodiversity Information Facility)</p>\n</li>\n</ul>\n</div>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_synonyms_and_deprecated_names\">4.4. Synonyms and deprecated names</h3>\n<div class=\"sect3\">\n<h4 id=\"_synonym_handling\">4.4.1. Synonym handling</h4>\n<div class=\"paragraph\">\n<p>When a species has known synonyms, the currently accepted name shall be used\nas the primary identifier. Common synonyms may be listed for reference.</p>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_deprecated_names\">4.4.2. Deprecated names</h4>\n<div class=\"paragraph\">\n<p>Names that have been taxonomically rejected or superseded shall be marked as\ndeprecated and shall not be used as primary identifiers.</p>\n</div>\n<table id=\"table-common-fungi\" class=\"tableblock frame-all grid-all stretch\">\n<caption class=\"title\">Table 1. Common medicinal fungi: accepted names and synonyms</caption>\n<colgroup>\n<col style=\"width: 40%;\">\n<col style=\"width: 30%;\">\n<col style=\"width: 30%;\">\n</colgroup>\n<thead>\n<tr>\n<th class=\"tableblock halign-left valign-top\">Accepted name</th>\n<th class=\"tableblock halign-left valign-top\">Common synonyms</th>\n<th class=\"tableblock halign-left valign-top\">Common name</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Ganoderma lucidum</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">G. lucidum sensu stricto</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Reishi, Lingzhi</p></td>\n</tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Lentinula edodes</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Lentinus edodes</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Shiitake</p></td>\n</tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Trametes versicolor</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Coriolus versicolor, Polyporus versicolor</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Turkey Tail, Yun Zhi</p></td>\n</tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Cordyceps sinensis</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Ophiocordyceps sinensis</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Caterpillar fungus, Yartsa Gunbu</p></td>\n</tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Inonotus obliquus</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Fuscoporia obliqua</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Chaga</p></td>\n</tr>\n<tr>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Hericium erinaceus</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Hydnum erinaceus</p></td>\n<td class=\"tableblock halign-left valign-top\"><p class=\"tableblock\">Lion&#8217;s Mane, Yamabushitake</p></td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n</div>\n</div>\n<div class=\"sect1\">\n<h2 id=\"nomenclature\">5. Nomenclature standards</h2>\n<div class=\"sectionbody\">\n<div class=\"sect2\">\n<h3 id=\"_general_requirements_2\">5.1. General requirements</h3>\n<div class=\"paragraph\">\n<p>This clause establishes standards for the use of nomenclature in scientific\npublications, product labels, and regulatory documents.</p>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_documentation_requirements\">5.2. Documentation requirements</h3>\n<div class=\"sect3\">\n<h4 id=\"_required_elements\">5.2.1. Required elements</h4>\n<div class=\"paragraph\">\n<p>The following elements shall be included in all references to medicinal fungi:</p>\n</div>\n<div class=\"paragraph\">\n<p>a) Scientific name (genus and species)\nb) Authority citation (on first mention)\nc) Part of fungus used (fruiting body, mycelium, sclerotium, etc.)\nd) Source (wild-collected or cultivated)</p>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_recommended_elements\">5.2.2. Recommended elements</h4>\n<div class=\"paragraph\">\n<p>The following elements are recommended for comprehensive documentation:</p>\n</div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Strain identifier (if applicable)</p>\n</li>\n<li>\n<p>Geographic origin</p>\n</li>\n<li>\n<p>Cultivation method</p>\n</li>\n<li>\n<p>Harvest date</p>\n</li>\n</ul>\n</div>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_product_labeling\">5.3. Product labeling</h3>\n<div class=\"sect3\">\n<h4 id=\"_standard_format\">5.3.1. Standard format</h4>\n<div class=\"paragraph\">\n<p>Product labels shall include the scientific name of the fungal ingredient.</p>\n</div>\n<div class=\"exampleblock\">\n<div class=\"content\">\nGanoderma lucidum (Reishi) fruiting body extract\n</div>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_common_names\">5.3.2. Common names</h4>\n<div class=\"paragraph\">\n<p>Common names may be included alongside scientific names but shall not replace\nthem as the primary identifier.</p>\n</div>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_quality_control_documentation\">5.4. Quality control documentation</h3>\n<div class=\"sect3\">\n<h4 id=\"_voucher_specimens\">5.4.1. Voucher specimens</h4>\n<div class=\"paragraph\">\n<p>Voucher specimens shall be preserved for all medicinal fungi used in research\nor commercial production.</p>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nSee SIPM-0001 for requirements for voucher specimens.\n</td>\n</tr>\n</table>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_identification_records\">5.4.2. Identification records</h4>\n<div class=\"paragraph\">\n<p>Records shall be maintained documenting the taxonomic identification process,\nincluding:</p>\n</div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Morphological characteristics observed</p>\n</li>\n<li>\n<p>Reference materials used for comparison</p>\n</li>\n<li>\n<p>Name and qualifications of the identifier</p>\n</li>\n<li>\n<p>Date of identification</p>\n</li>\n</ul>\n</div>\n</div>\n</div>\n<div class=\"sect2\">\n<h3 id=\"_species_specific_requirements\">5.5. Species-specific requirements</h3>\n<div class=\"sect3\">\n<h4 id=\"_ganoderma_species\">5.5.1. Ganoderma species</h4>\n<div class=\"paragraph\">\n<p>Due to taxonomic complexity within the Ganoderma genus, identification shall\ninclude:</p>\n</div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Macroscopic characteristics of the fruiting body</p>\n</li>\n<li>\n<p>Microscopic characteristics of spores and hyphae</p>\n</li>\n<li>\n<p>Geographic origin information</p>\n</li>\n</ul>\n</div>\n</div>\n<div class=\"sect3\">\n<h4 id=\"_cordyceps_species\">5.5.2. Cordyceps species</h4>\n<div class=\"paragraph\">\n<p>Cordyceps products shall specify:</p>\n</div>\n<div class=\"ulist\">\n<ul>\n<li>\n<p>Species identity (C. sinensis, C. militaris, or other)</p>\n</li>\n<li>\n<p>Whether the product contains the natural complex (fungus + host) or\ncultured mycelium</p>\n</li>\n</ul>\n</div>\n<div class=\"admonitionblock note\">\n<table>\n<tr>\n<td class=\"icon\">\n<div class=\"title\">Note</div>\n</td>\n<td class=\"content\">\nC. sinensis is endangered in the wild; cultured alternatives are\ncommonly used.\n</td>\n</tr>\n</table>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"sect1\">\n<h2 id=\"bib\">Bibliography</h2>\n<div class=\"sectionbody\">\n<div class=\"ulist bibliography\">\n<ul class=\"bibliography\">\n<li>\n<p>[<a id=\"Kirk\"></a>, <em>Dictionary of the Fungi</em>. 10th ed. CABI Publishing,\nWallingford, UK, 2008</p>\n</li>\n<li>\n<p>[<a id=\"Stamets\"></a>, <em>Growing Gourmet and Medicinal Mushrooms</em>.\n3rd ed. Ten Speed Press, Berkeley, CA, 2000</p>\n</li>\n<li>\n<p>[<a id=\"Wasser\"></a>, Medicinal mushrooms as a source of antitumor and\nimmunomodulating polysaccharides. <em>Appl. Microbiol. Biotechnol.</em> 2002,\n<strong>60</strong> pp. 258-274</p>\n</li>\n<li>\n<p>[<a id=\"Hobbs\"></a>, <em>Medicinal Mushrooms: An Exploration of Tradition,\nHealing, and Culture</em>. Botanica Press, Santa Cruz, CA, 1995</p>\n</li>\n<li>\n<p>[<a id=\"Chang\"></a>, <em>Mushroom Biology and Mushroom Products</em>.\nChinese University Press, Hong Kong, 1993</p>\n</li>\n</ul>\n</div>\n</div>\n</div>",
+  "toc": [
+    {
+      "id": "intro",
+      "title": "Introduction",
+      "level": 1,
+      "children": []
+    },
+    {
+      "id": "scope",
+      "title": "Scope",
+      "level": 1,
+      "children": []
+    },
+    {
+      "id": "norm-refs",
+      "title": "Normative references",
+      "level": 1,
+      "children": []
+    },
+    {
+      "id": "terms",
+      "title": "Terms and definitions",
+      "level": 1,
+      "children": [
+        {
+          "id": "_medicinal_fungus",
+          "title": "medicinal fungus",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_basidiomycete",
+          "title": "basidiomycete",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_ascomycete",
+          "title": "ascomycete",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_fruiting_body",
+          "title": "fruiting body",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_mycelium",
+          "title": "mycelium",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_sclerotium",
+          "title": "sclerotium",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_spore",
+          "title": "spore",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_anamorph",
+          "title": "anamorph",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_teleomorph",
+          "title": "teleomorph",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_holomorph",
+          "title": "holomorph",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_species_complex",
+          "title": "species complex",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_strain",
+          "title": "strain",
+          "level": 2,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "taxonomy",
+      "title": "Taxonomic classification",
+      "level": 1,
+      "children": [
+        {
+          "id": "_general_requirements",
+          "title": "General requirements",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_taxonomic_hierarchy",
+          "title": "Taxonomic hierarchy",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_scientific_names",
+          "title": "Scientific names",
+          "level": 2,
+          "children": [
+            {
+              "id": "_latin_binomial",
+              "title": "Latin binomial",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_author_citation",
+              "title": "Author citation",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_taxonomic_authorities",
+              "title": "Taxonomic authorities",
+              "level": 3,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "_synonyms_and_deprecated_names",
+          "title": "Synonyms and deprecated names",
+          "level": 2,
+          "children": [
+            {
+              "id": "_synonym_handling",
+              "title": "Synonym handling",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_deprecated_names",
+              "title": "Deprecated names",
+              "level": 3,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nomenclature",
+      "title": "Nomenclature standards",
+      "level": 1,
+      "children": [
+        {
+          "id": "_general_requirements_2",
+          "title": "General requirements",
+          "level": 2,
+          "children": []
+        },
+        {
+          "id": "_documentation_requirements",
+          "title": "Documentation requirements",
+          "level": 2,
+          "children": [
+            {
+              "id": "_required_elements",
+              "title": "Required elements",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_recommended_elements",
+              "title": "Recommended elements",
+              "level": 3,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "_product_labeling",
+          "title": "Product labeling",
+          "level": 2,
+          "children": [
+            {
+              "id": "_standard_format",
+              "title": "Standard format",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_common_names",
+              "title": "Common names",
+              "level": 3,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "_quality_control_documentation",
+          "title": "Quality control documentation",
+          "level": 2,
+          "children": [
+            {
+              "id": "_voucher_specimens",
+              "title": "Voucher specimens",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_identification_records",
+              "title": "Identification records",
+              "level": 3,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "_species_specific_requirements",
+          "title": "Species-specific requirements",
+          "level": 2,
+          "children": [
+            {
+              "id": "_ganoderma_species",
+              "title": "Ganoderma species",
+              "level": 3,
+              "children": []
+            },
+            {
+              "id": "_cordyceps_species",
+              "title": "Cordyceps species",
+              "level": 3,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bib",
+      "title": "Bibliography",
+      "level": 1,
+      "children": []
+    }
+  ],
+  "raw": "= Medicinal Fungi Taxonomy\n:docnumber: 0002\n:partnumber: 1\n:edition: 1\n:revdate: 2026-02-17\n:copyright-year: 2026\n:language: en\n:title-intro-en: SIPM Standards\n:title-main-en: Medicinal Fungi Taxonomy and Nomenclature\n:title-part-en: General requirements\n:doctype: international-standard\n:docstage: 60\n:docsubstage: 60\n:technical-committee-number: 2\n:technical-committee: Fungi and Lichens\n:library-ics: 07.100.20;11.120\n:mn-document-class: iso\n:mn-output-extensions: xml,html,doc,pdf\n\ninclude::sections/00-foreword.adoc[]\n\ninclude::sections/00-introduction.adoc[]\n\ninclude::sections/01-scope.adoc[]\n\ninclude::sections/02-normref.adoc[]\n\ninclude::sections/03-terms.adoc[]\n\ninclude::sections/04-taxonomy.adoc[]\n\ninclude::sections/05-nomenclature.adoc[]\n\ninclude::sections/b0-bibliography.adoc[]\n"
+}
