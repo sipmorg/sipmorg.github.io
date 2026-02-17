@@ -1,0 +1,74 @@
+# Site Configuration
+site:
+  name: SIPM
+  title: International Society of Phytomedicine
+  description: >
+    Promoting the scientific study and application of phytomedicine through
+    scientific excellence, international collaboration, and commitment to public health.
+  url: https://sipm.org
+  language: en
+
+organization:
+  name: International Society of Phytomedicine
+  shortName: SIPM
+  fullNameEn: International Society of Phytomedicine
+  fullNameFr: Société Internationale de Phytomédecine
+  fullNameZh: 國際植物藥學會
+  fullNameJa: 国際植物医薬学会
+
+navigation:
+  main:
+    - label: About
+      path: /about
+      children:
+        - label: Mission
+          path: /about/mission
+        - label: History
+          path: /about/history
+        - label: Leadership
+          path: /about/leadership
+        - label: Partners
+          path: /about/partners
+    - label: Standards
+      path: /standards
+      children:
+        - label: Foundation
+          path: /standards/foundation
+        - label: Quality
+          path: /standards/quality
+        - label: Science
+          path: /standards/science
+        - label: Governance
+          path: /standards/governance
+    - label: News
+      path: /news
+    - label: Members
+      path: /members
+      children:
+        - label: Benefits
+          path: /members/benefits
+        - label: Working Groups
+          path: /members/working-groups
+        - label: Directory
+          path: /members/directory
+
+social:
+  - name: GitHub
+    url: https://github.com/sipm
+    icon: github
+  - name: LinkedIn
+    url: https://linkedin.com/company/sipm
+    icon: linkedin
+  - name: Twitter
+    url: https://twitter.com/sipm_org
+    icon: twitter
+
+contact:
+  email: info@sipm.org
+  address: |
+    Geneva, Switzerland
+
+footer:
+  copyright: "© 2025 International Society of Phytomedicine. All rights reserved."
+  privacyUrl: /privacy
+  termsUrl: /terms
