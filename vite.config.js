@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import { resolve } from 'path'
+import { readFileSync } from 'fs'
 
 export default defineConfig({
   plugins: [vue()],
@@ -55,7 +56,24 @@ export default defineConfig({
       // Add known dynamic routes (news articles)
       allRoutes.push('/news/introducing-sipm')
 
-      return allRoutes
+      // Add standards routes - read from built JSON files
+      try {
+        const standardsIndexPath = resolve(__dirname, 'src/content/standards/index.json')
+        const standardsData = JSON.parse(readFileSync(standardsIndexPath, 'utf-8'))
+
+        for (const standard of standardsData) {
+          const category = standard.category || 'standards'
+          const id = standard.id || standard.number
+          if (id) {
+            allRoutes.push(`/standards/${category}/${id}`)
+          }
+        }
+      } catch (err) {
+        // If standards JSON doesn't exist yet (first build), skip
+        console.warn('Standards index not found, skipping standards routes')
+      }
+
+      return [...new Set(allRoutes)]
     },
     sitemap: {
       hostname: 'https://sipm.org',

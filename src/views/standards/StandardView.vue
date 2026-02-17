@@ -3,11 +3,11 @@
     <div class="container container-narrow">
       <TheBreadcrumbs :items="breadcrumbs" />
 
-      <div v-if="loading" class="loading-state">
+      <div v-if="!standard && loading" class="loading-state">
         <p>Loading standard...</p>
       </div>
 
-      <div v-else-if="error" class="error-state glass">
+      <div v-else-if="!standard && error" class="error-state glass">
         <h1>Standard Not Found</h1>
         <p>{{ error }}</p>
         <router-link to="/standards" class="back-link">← Back to Standards</router-link>
@@ -22,11 +22,11 @@
             </div>
             <div class="meta-item">
               <span class="meta-label">Edition</span>
-              <span class="meta-value">{{ standard.attributes.edition || '1.0' }}</span>
+              <span class="meta-value">{{ standard.attributes?.edition || '1.0' }}</span>
             </div>
             <div class="meta-item">
               <span class="meta-label">Date</span>
-              <span class="meta-value">{{ formatDate(standard.attributes.revdate) }}</span>
+              <span class="meta-value">{{ formatDate(standard.attributes?.revdate) }}</span>
             </div>
             <div class="meta-item">
               <span class="meta-label">Status</span>
@@ -36,7 +36,7 @@
 
           <h1 class="standard-title">{{ standard.title }}</h1>
 
-          <div v-if="standard.attributes.workgroup" class="standard-workgroup">
+          <div v-if="standard.attributes?.workgroup" class="standard-workgroup">
             <span>Developed by:</span> {{ standard.attributes.workgroup }}
           </div>
         </header>
@@ -72,23 +72,30 @@
           </div>
         </footer>
       </article>
+
+      <div v-else class="error-state glass">
+        <h1>Standard Not Found</h1>
+        <p>The requested standard could not be found.</p>
+        <router-link to="/standards" class="back-link">← Back to Standards</router-link>
+      </div>
     </div>
   </div>
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from 'vue'
+import { computed, onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import TheBreadcrumbs from '@/components/layout/TheBreadcrumbs.vue'
 import Badge from '@/components/ui/Badge.vue'
 import GradientButton from '@/components/ui/GradientButton.vue'
 import { useSeo } from '@/composables/useSeo.js'
+import { useStandard } from '@/composables/useStandard.js'
 
 const route = useRoute()
+const { standard: standardData, loading, error, hasStaticData, loadStandard } = useStandard()
 
-const standard = ref(null)
-const loading = ref(true)
-const error = ref(null)
+// Use the standard from the composable (static for SSG)
+const standard = ref(standardData.value)
 
 const standardId = computed(() => route.params.id)
 
@@ -130,7 +137,6 @@ function formatDate(dateStr) {
 }
 
 function downloadPdf() {
-  // TODO: Implement PDF download
   alert('PDF download will be available once the standard is finalized.')
 }
 
@@ -138,43 +144,15 @@ function viewOnGithub() {
   window.open(`https://github.com/sipmorg/standards/tree/main/${standardId.value}`, '_blank')
 }
 
-async function loadStandard() {
-  loading.value = true
-  error.value = null
-
-  try {
-    // Try to load from pre-built content first
-    const response = await fetch(`/content/standards/${standardId.value}.json`)
-
-    if (!response.ok) {
-      // Try GitHub API as fallback
-      const githubResponse = await fetch(
-        `https://api.github.com/repos/sipmorg/standards/contents/${standardId.value}/document.adoc`,
-        {
-          headers: { Accept: 'application/vnd.github.v3.raw' }
-        }
-      )
-
-      if (!githubResponse.ok) {
-        throw new Error('Standard not found')
-      }
-
-      // For GitHub raw content, we'd need to parse it
-      // For now, show a message
-      error.value = 'This standard is available on GitHub but not yet rendered for web viewing.'
-      loading.value = false
-      return
+// For CSR fallback when static data isn't available
+onMounted(async () => {
+  if (!hasStaticData.value && !standard.value) {
+    const data = await loadStandard()
+    if (data) {
+      standard.value = data
     }
-
-    standard.value = await response.json()
-  } catch (err) {
-    error.value = err.message || 'Failed to load standard'
-  } finally {
-    loading.value = false
   }
-}
-
-onMounted(loadStandard)
+})
 
 useSeo({
   title: computed(() => standard.value?.title || 'Loading Standard'),
@@ -463,5 +441,9 @@ useSeo({
   padding: var(--spacing-md);
   margin: var(--spacing-lg) 0;
   border-radius: var(--radius-md);
+}
+
+.standard-content #toc {
+  display: none;
 }
 </style>
