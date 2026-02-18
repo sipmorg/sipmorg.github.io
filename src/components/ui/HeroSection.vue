@@ -91,12 +91,12 @@ const heroClasses = computed(() => [
   { 'hero--has-image': props.image }
 ])
 
-// Check if link is external (http) or cross-site (/standards/, /herbapedia/)
+// Check if link is external (http) or cross-site (/standards/, herbapedia.com)
 const isExternalLink = (link) => {
   if (!link) return false
   return link.startsWith('http') ||
          link.startsWith('/standards') ||
-         link.startsWith('/herbapedia')
+         link.includes('herbapedia.com')
 }
 </script>
 

@@ -49,10 +49,10 @@
         <div class="footer-nav">
           <h4 class="footer-heading">Herbapedia</h4>
           <ul class="footer-links">
-            <li><a href="/herbapedia/herbs/chinese-herbs">Chinese Herbs</a></li>
-            <li><a href="/herbapedia/herbs/western-herbs">Western Herbs</a></li>
-            <li><a href="/herbapedia/herbs/vitamins">Vitamins</a></li>
-            <li><a href="/herbapedia/">Browse All</a></li>
+            <li><a href="https://www.herbapedia.com/herbs/chinese-herbs">Chinese Herbs</a></li>
+            <li><a href="https://www.herbapedia.com/herbs/western-herbs">Western Herbs</a></li>
+            <li><a href="https://www.herbapedia.com/herbs/vitamins">Vitamins</a></li>
+            <li><a href="https://www.herbapedia.com/">Browse All</a></li>
           </ul>
         </div>
 

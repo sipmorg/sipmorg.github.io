@@ -57,18 +57,18 @@
               <path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.5" fill="none"/>
             </svg>
           </span>
-          <a href="/herbapedia/" class="nav-link nav-dropdown-trigger nav-dropdown-trigger--desktop">
+          <a href="https://www.herbapedia.com/" class="nav-link nav-dropdown-trigger nav-dropdown-trigger--desktop">
             Herbapedia
             <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 12 12">
               <path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.5" fill="none"/>
             </svg>
           </a>
           <div class="dropdown-menu">
-            <a href="/herbapedia/herbs/chinese-herbs/" class="dropdown-link" @click="closeMobileNav">Chinese Herbs</a>
-            <a href="/herbapedia/herbs/western-herbs/" class="dropdown-link" @click="closeMobileNav">Western Herbs</a>
-            <a href="/herbapedia/herbs/vitamins/" class="dropdown-link" @click="closeMobileNav">Vitamins</a>
-            <a href="/herbapedia/herbs/minerals/" class="dropdown-link" @click="closeMobileNav">Minerals</a>
-            <a href="/herbapedia/herbs/nutrients/" class="dropdown-link" @click="closeMobileNav">Nutrients</a>
+            <a href="https://www.herbapedia.com/herbs/chinese-herbs/" class="dropdown-link" @click="closeMobileNav">Chinese Herbs</a>
+            <a href="https://www.herbapedia.com/herbs/western-herbs/" class="dropdown-link" @click="closeMobileNav">Western Herbs</a>
+            <a href="https://www.herbapedia.com/herbs/vitamins/" class="dropdown-link" @click="closeMobileNav">Vitamins</a>
+            <a href="https://www.herbapedia.com/herbs/minerals/" class="dropdown-link" @click="closeMobileNav">Minerals</a>
+            <a href="https://www.herbapedia.com/herbs/nutrients/" class="dropdown-link" @click="closeMobileNav">Nutrients</a>
           </div>
         </div>
 

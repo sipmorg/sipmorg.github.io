@@ -8,7 +8,7 @@
       cta-text="Explore Standards"
       cta-link="/standards/"
       cta-secondary-text="Browse Herbapedia"
-      cta-secondary-link="/herbapedia/"
+      cta-secondary-link="https://www.herbapedia.com/"
     />
 
     <!-- Mission Preview -->
