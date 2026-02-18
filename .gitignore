@@ -5,3 +5,10 @@ dist
 *.log
 
 CLAUDE.md
+
+# Generated standards content - built from sipmorg/standards during CI
+# Run `npm run build:standards` locally to generate these
+src/content/standards/*.json
+public/content/standards/*.json
+!src/content/standards/.gitkeep
+!public/content/standards/.gitkeep
