@@ -6,9 +6,9 @@
       subtitle="International Society of Phytomedicine"
       description="Promoting the scientific study, development, and standardization of plant-based medicines through international collaboration and commitment to public health."
       cta-text="Explore Standards"
-      cta-link="/standards"
-      cta-secondary-text="Join SIPM"
-      cta-secondary-link="/members/benefits"
+      cta-link="/standards/"
+      cta-secondary-text="Browse Herbapedia"
+      cta-secondary-link="/herbapedia/"
     />
 
     <!-- Mission Preview -->
@@ -46,25 +46,25 @@
             title="Foundation"
             description="Terminology and classification systems that establish a common vocabulary for phytomedicine across disciplines and cultures."
             icon="book"
-            link="/standards/foundation"
+            link="/standards/foundation/"
           />
           <StandardCard
             title="Quality"
             description="Agricultural practices, processing, and logistics standards ensuring quality from seed to patient."
             icon="leaf"
-            link="/standards/quality"
+            link="/standards/quality/"
           />
           <StandardCard
             title="Science"
             description="Evidence-based evaluation and documentation of medicinal properties, testing methods, and clinical applications."
             icon="flask"
-            link="/standards/science"
+            link="/standards/science/"
           />
           <StandardCard
             title="Governance"
             description="Regulatory harmonization, education standards, and pharmacovigilance for safe implementation."
             icon="certificate"
-            link="/standards/governance"
+            link="/standards/governance/"
           />
         </div>
       </div>

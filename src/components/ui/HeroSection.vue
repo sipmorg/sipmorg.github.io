@@ -12,22 +12,22 @@
         <div class="hero-actions" v-if="ctaText || ctaSecondaryText">
           <GradientButton
             v-if="ctaText"
-            :href="ctaLink?.startsWith('http') ? ctaLink : undefined"
+            :href="isExternalLink(ctaLink) ? ctaLink : undefined"
             variant="gold"
             size="lg"
           >
-            <router-link v-if="ctaLink && !ctaLink?.startsWith('http')" :to="ctaLink" class="hero-cta-link">
+            <router-link v-if="!isExternalLink(ctaLink)" :to="ctaLink" class="hero-cta-link">
               {{ ctaText }}
             </router-link>
             <template v-else>{{ ctaText }}</template>
           </GradientButton>
           <GradientButton
             v-if="ctaSecondaryText"
-            :href="ctaSecondaryLink?.startsWith('http') ? ctaSecondaryLink : undefined"
+            :href="isExternalLink(ctaSecondaryLink) ? ctaSecondaryLink : undefined"
             variant="outline"
             size="lg"
           >
-            <router-link v-if="ctaSecondaryLink && !ctaSecondaryLink?.startsWith('http')" :to="ctaSecondaryLink" class="hero-cta-link">
+            <router-link v-if="!isExternalLink(ctaSecondaryLink)" :to="ctaSecondaryLink" class="hero-cta-link">
               {{ ctaSecondaryText }}
             </router-link>
             <template v-else>{{ ctaSecondaryText }}</template>
@@ -90,6 +90,14 @@ const heroClasses = computed(() => [
   `hero--${props.variant}`,
   { 'hero--has-image': props.image }
 ])
+
+// Check if link is external (http) or cross-site (/standards/, /herbapedia/)
+const isExternalLink = (link) => {
+  if (!link) return false
+  return link.startsWith('http') ||
+         link.startsWith('/standards') ||
+         link.startsWith('/herbapedia')
+}
 </script>
 
 <style scoped>

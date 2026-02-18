@@ -1,5 +1,5 @@
 <template>
-  <router-link :to="link" class="standard-card glass" :class="{ 'standard-card--hoverable': hoverable }">
+  <a :href="link" class="standard-card glass" :class="{ 'standard-card--hoverable': hoverable }">
     <div class="standard-card-icon" :style="iconStyle">
       <component :is="iconComponent" v-if="iconComponent" />
       <span v-else class="standard-card-icon-text">{{ iconText }}</span>
@@ -7,17 +7,14 @@
     <div class="standard-card-content">
       <h3 class="standard-card-title">{{ title }}</h3>
       <p class="standard-card-description">{{ description }}</p>
-      <div class="standard-card-meta">
-        <span class="standard-card-count">{{ count }} {{ count === 1 ? 'Standard' : 'Standards' }}</span>
-        <Badge v-if="status" :variant="statusVariant">{{ status }}</Badge>
-      </div>
+      <Badge v-if="status" :variant="statusVariant">{{ status }}</Badge>
     </div>
     <div class="standard-card-arrow">
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <path d="M5 12h14M12 5l7 7-7 7"/>
       </svg>
     </div>
-  </router-link>
+  </a>
 </template>
 
 <script setup>
@@ -36,10 +33,6 @@ const props = defineProps({
   icon: {
     type: String,
     default: 'leaf'
-  },
-  count: {
-    type: Number,
-    default: 0
   },
   link: {
     type: String,
@@ -136,23 +129,11 @@ const statusVariant = computed(() => {
   font-size: var(--font-size-sm);
   color: var(--color-text-light);
   line-height: var(--line-height-relaxed);
-  margin-bottom: var(--spacing-sm);
+  margin-bottom: 0;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
-}
-
-.standard-card-meta {
-  display: flex;
-  align-items: center;
-  gap: var(--spacing-md);
-}
-
-.standard-card-count {
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
-  color: var(--color-secondary);
 }
 
 .standard-card-arrow {
