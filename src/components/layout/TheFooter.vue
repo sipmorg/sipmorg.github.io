@@ -39,10 +39,20 @@
         <div class="footer-nav">
           <h4 class="footer-heading">Standards</h4>
           <ul class="footer-links">
-            <li><router-link to="/standards/foundation">Foundation</router-link></li>
-            <li><router-link to="/standards/quality">Quality</router-link></li>
-            <li><router-link to="/standards/science">Science</router-link></li>
-            <li><router-link to="/standards/governance">Governance</router-link></li>
+            <li><a href="/standards/foundation/">Foundation</a></li>
+            <li><a href="/standards/quality/">Quality</a></li>
+            <li><a href="/standards/science/">Science</a></li>
+            <li><a href="/standards/governance/">Governance</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav">
+          <h4 class="footer-heading">Herbapedia</h4>
+          <ul class="footer-links">
+            <li><a href="/herbapedia/herbs/chinese-herbs">Chinese Herbs</a></li>
+            <li><a href="/herbapedia/herbs/western-herbs">Western Herbs</a></li>
+            <li><a href="/herbapedia/herbs/vitamins">Vitamins</a></li>
+            <li><a href="/herbapedia/">Browse All</a></li>
           </ul>
         </div>
 
@@ -86,8 +96,8 @@ const currentYear = computed(() => new Date().getFullYear())
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
-  gap: var(--spacing-2xl);
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+  gap: var(--spacing-xl);
   margin-bottom: var(--spacing-2xl);
 }
 

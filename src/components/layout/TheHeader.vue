@@ -30,17 +30,33 @@
         </div>
 
         <div class="nav-dropdown">
-          <router-link to="/standards" class="nav-link nav-dropdown-trigger">
+          <a href="/standards/" class="nav-link nav-dropdown-trigger">
             Standards
             <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 12 12">
               <path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.5" fill="none"/>
             </svg>
-          </router-link>
+          </a>
           <div class="dropdown-menu">
-            <router-link to="/standards/foundation" class="dropdown-link" @click="closeMobileNav">Foundation</router-link>
-            <router-link to="/standards/quality" class="dropdown-link" @click="closeMobileNav">Quality</router-link>
-            <router-link to="/standards/science" class="dropdown-link" @click="closeMobileNav">Science</router-link>
-            <router-link to="/standards/governance" class="dropdown-link" @click="closeMobileNav">Governance</router-link>
+            <a href="/standards/foundation/" class="dropdown-link" @click="closeMobileNav">Foundation</a>
+            <a href="/standards/quality/" class="dropdown-link" @click="closeMobileNav">Quality</a>
+            <a href="/standards/science/" class="dropdown-link" @click="closeMobileNav">Science</a>
+            <a href="/standards/governance/" class="dropdown-link" @click="closeMobileNav">Governance</a>
+          </div>
+        </div>
+
+        <div class="nav-dropdown">
+          <a href="/herbapedia/" class="nav-link nav-dropdown-trigger">
+            Herbapedia
+            <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 12 12">
+              <path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.5" fill="none"/>
+            </svg>
+          </a>
+          <div class="dropdown-menu">
+            <a href="/herbapedia/herbs/chinese-herbs" class="dropdown-link" @click="closeMobileNav">Chinese Herbs</a>
+            <a href="/herbapedia/herbs/western-herbs" class="dropdown-link" @click="closeMobileNav">Western Herbs</a>
+            <a href="/herbapedia/herbs/vitamins" class="dropdown-link" @click="closeMobileNav">Vitamins</a>
+            <a href="/herbapedia/herbs/minerals" class="dropdown-link" @click="closeMobileNav">Minerals</a>
+            <a href="/herbapedia/herbs/nutrients" class="dropdown-link" @click="closeMobileNav">Nutrients</a>
           </div>
         </div>
 

@@ -2,7 +2,10 @@
  * Vue Router Configuration
  *
  * Route definitions for SSG with vite-ssg
- * Structure: About, Standards, News, Members
+ * Structure: About, News, Members
+ *
+ * Note: Standards and Herbapedia are deployed as separate sites
+ * at /standards/ and /herbapedia/ respectively.
  */
 
 export const routes = [
@@ -44,47 +47,6 @@ export const routes = [
         component: () => import('@/views/about/PartnersView.vue')
       }
     ]
-  },
-
-  // Standards section
-  {
-    path: '/standards',
-    name: 'standards',
-    component: () => import('@/views/StandardsView.vue'),
-    children: [
-      {
-        path: '',
-        name: 'standards-index',
-        redirect: '/standards/foundation'
-      },
-      {
-        path: 'foundation',
-        name: 'foundation',
-        component: () => import('@/views/standards/FoundationView.vue')
-      },
-      {
-        path: 'quality',
-        name: 'quality',
-        component: () => import('@/views/standards/QualityView.vue')
-      },
-      {
-        path: 'science',
-        name: 'science',
-        component: () => import('@/views/standards/ScienceView.vue')
-      },
-      {
-        path: 'governance',
-        name: 'governance',
-        component: () => import('@/views/standards/GovernanceView.vue')
-      }
-    ]
-  },
-
-  // Individual standard pages (AsciiDoc rendering)
-  {
-    path: '/standards/:id',
-    name: 'standard-view',
-    component: () => import('@/views/standards/StandardView.vue')
   },
 
   // News section
